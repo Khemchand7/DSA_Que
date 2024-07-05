@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Khemchand7/DSA_Que/tree/master/0033-search-in-rotated-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0074-search-a-2d-matrix) |
+| [0287-find-the-duplicate-number](https://github.com/Khemchand7/DSA_Que/tree/master/0287-find-the-duplicate-number) |
 | [0724-find-pivot-index](https://github.com/Khemchand7/DSA_Que/tree/master/0724-find-pivot-index) |
 ## Prefix Sum
 |  |
@@ -19,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/Khemchand7/DSA_Que/tree/master/0033-search-in-rotated-sorted-array) |
 | [0069-sqrtx](https://github.com/Khemchand7/DSA_Que/tree/master/0069-sqrtx) |
 | [0074-search-a-2d-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0074-search-a-2d-matrix) |
+| [0287-find-the-duplicate-number](https://github.com/Khemchand7/DSA_Que/tree/master/0287-find-the-duplicate-number) |
 ## Math
 |  |
 | ------- |
@@ -27,4 +29,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0074-search-a-2d-matrix) |
+## Two Pointers
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/Khemchand7/DSA_Que/tree/master/0287-find-the-duplicate-number) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/Khemchand7/DSA_Que/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
