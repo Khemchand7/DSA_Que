@@ -10,10 +10,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0074-search-a-2d-matrix) |
 | [0287-find-the-duplicate-number](https://github.com/Khemchand7/DSA_Que/tree/master/0287-find-the-duplicate-number) |
 | [0724-find-pivot-index](https://github.com/Khemchand7/DSA_Que/tree/master/0724-find-pivot-index) |
+| [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/Khemchand7/DSA_Que/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0724-find-pivot-index](https://github.com/Khemchand7/DSA_Que/tree/master/0724-find-pivot-index) |
+| [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/Khemchand7/DSA_Que/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
 ## Binary Search
 |  |
 | ------- |
@@ -46,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0680-valid-palindrome-ii) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Khemchand7/DSA_Que/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Khemchand7/DSA_Que/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/Khemchand7/DSA_Que/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
 ## Stack
 |  |
 | ------- |
