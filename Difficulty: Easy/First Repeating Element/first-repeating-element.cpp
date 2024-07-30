@@ -1,0 +1,79 @@
+//{ Driver Code Starts
+// Initial template for C++
+
+#include <bits/stdc++.h>
+using namespace std;
+
+
+// } Driver Code Ends
+// User function template in C++
+
+class Solution {
+  public:
+    // Function to return the position of the first repeating element.
+    int firstRepeated(vector<int> &arr) {
+        int n=arr.size();
+        // for(int i=0;i<n;i++){
+        //     //bool isRepeated=false;
+        //     for(int j=i+1;j<n;j++){
+        //         //i+1 se karenge kyuki warna element will be compared by itself
+        //         //isRepeaetd=true;
+        //         if(arr[i]==arr[j]) return i+1;
+        //     }
+        // }
+        unordered_map<int,int>hash;
+        for(int i=0;i<n;i++){
+            hash[arr[i]]++;
+        }
+        for(int i=0;i<n;i++){
+            if(hash[arr[i]]>1) return i+1;
+        }
+        return -1;
+    }
+};
+
+// Que:
+
+// Given an array arr[], find the first repeating element. The element should occur more than once and the index of its first occurrence should be the smallest.
+
+// Note:- The position you return should be according to 1-based indexing. 
+
+// Examples:
+
+// Input: arr[] = [1, 5, 3, 4, 3, 5, 6]
+// Output: 2
+// Explanation: 5 appears twice and its first appearance is at index 2 which is less than 3 whose first the occurring index is 3.
+// Input: arr[] = [1, 2, 3, 4]
+// Output: -1
+// Explanation: All elements appear only once so answer is -1.
+// Expected Time Complexity: O(n)
+// Expected Auxilliary Space: O(n)
+
+// Constraints:
+// 1 <= arr.size <= 106
+// 0 <= arr[i]<= 106
+
+//{ Driver Code Starts.
+int main() {
+
+    int t;
+    cin >> t;
+    cin.ignore();
+    while (t--) {
+        vector<int> arr;
+        string input;
+        getline(cin, input); // Read the entire line for the array elements
+        stringstream ss(input);
+        int number;
+        while (ss >> number) {
+            arr.push_back(number);
+        }
+
+        Solution ob;
+        cout << ob.firstRepeated(arr) << endl;
+    }
+
+    return 0;
+}
+
+// } Driver Code Ends
