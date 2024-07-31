@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/Khemchand7/DSA_Que/tree/master/0033-search-in-rotated-sorted-array) |
 | [0054-spiral-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0074-search-a-2d-matrix) |
+| [0268-missing-number](https://github.com/Khemchand7/DSA_Que/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Khemchand7/DSA_Que/tree/master/0287-find-the-duplicate-number) |
 | [0724-find-pivot-index](https://github.com/Khemchand7/DSA_Que/tree/master/0724-find-pivot-index) |
 | [0926-find-and-replace-pattern](https://github.com/Khemchand7/DSA_Que/tree/master/0926-find-and-replace-pattern) |
@@ -24,11 +25,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/Khemchand7/DSA_Que/tree/master/0033-search-in-rotated-sorted-array) |
 | [0069-sqrtx](https://github.com/Khemchand7/DSA_Que/tree/master/0069-sqrtx) |
 | [0074-search-a-2d-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0074-search-a-2d-matrix) |
+| [0268-missing-number](https://github.com/Khemchand7/DSA_Que/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Khemchand7/DSA_Que/tree/master/0287-find-the-duplicate-number) |
 ## Math
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/Khemchand7/DSA_Que/tree/master/0069-sqrtx) |
+| [0268-missing-number](https://github.com/Khemchand7/DSA_Que/tree/master/0268-missing-number) |
 ## Matrix
 |  |
 | ------- |
@@ -43,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/Khemchand7/DSA_Que/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Khemchand7/DSA_Que/tree/master/0287-find-the-duplicate-number) |
 ## String
 |  |
@@ -69,11 +73,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/Khemchand7/DSA_Que/tree/master/0268-missing-number) |
 | [0807-custom-sort-string](https://github.com/Khemchand7/DSA_Que/tree/master/0807-custom-sort-string) |
 | [0926-find-and-replace-pattern](https://github.com/Khemchand7/DSA_Que/tree/master/0926-find-and-replace-pattern) |
 ## Sorting
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/Khemchand7/DSA_Que/tree/master/0268-missing-number) |
 | [0807-custom-sort-string](https://github.com/Khemchand7/DSA_Que/tree/master/0807-custom-sort-string) |
 ## Simulation
 |  |
