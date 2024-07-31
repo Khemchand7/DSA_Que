@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+
+int searchNearlySortedArray(int arr[], int n, int target){
+  int s=0;
+  int e=n-1;
+  int mid=s+(e-s)/2;
+  while(s<=e){
+    if(mid-1>0 && arr[mid-1]==target){
+      return mid-1;
+    }
+    else if(arr[mid]==target){
+      return mid;
+    }
+    else if(mid+1<n && arr[mid+1]==target){
+      return mid+1;
+    }
+    else if(arr[mid]>target){
+      e=mid-2;//left me mid-1 wale ko pehle hi check kar chuke hai then no need to do again
+    }
+    else {
+      s=mid+2;// similary mid+1 ko pehle hi check kar chuke hai then no need to do again
+    }
+    mid=s+(e-s)/2;
+  }
+  return -1;
+}
+//driver function
+int main() {
+  int arr[]={20,10,30,50,40,70,60};
+  int target=70;
+  int n=7;
+  int ans= searchNearlySortedArray (arr,n,target);
+  cout<<ans;
+}
+//what is nearly sorted array
+//In a sorted array one no. is present at the ith index then in nearl sorted array same no. can be present at (i-1)th, ith,(i+1)th index.
