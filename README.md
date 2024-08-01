@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Khemchand7/DSA_Que/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Khemchand7/DSA_Que/tree/master/0033-search-in-rotated-sorted-array) |
 | [0054-spiral-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0074-search-a-2d-matrix) |
@@ -40,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Khemchand7/DSA_Que/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0287-find-the-duplicate-number](https://github.com/Khemchand7/DSA_Que/tree/master/0287-find-the-duplicate-number) |
 | [0647-palindromic-substrings](https://github.com/Khemchand7/DSA_Que/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0680-valid-palindrome-ii) |
