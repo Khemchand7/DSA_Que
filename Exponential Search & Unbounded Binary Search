@@ -34,3 +34,5 @@ application:
  1)Search in an infinite array of unbounded array
  2)Better than Binary search when x is near beginning
  3)Unbounded Search: Find the element in an infinite sorted array;
+Time Complexity:
+O(log(2^logm/2));
