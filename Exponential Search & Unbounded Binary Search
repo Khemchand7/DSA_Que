@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+
+int binarySearch(int arr[],int start,int end, int target){
+  int mid=start+(end-start)/2;
+  while(start<=end){
+    if(arr[mid]==target) return mid;
+    else if(arr[mid]>target) end=mid-1;
+    else start=mid+1;
+    mid=start+(end-start)/2;
+  }
+  return -1;
+}
+
+int exponentialSearch(int arr[],int n,int x){
+  if(arr[0]==x) return 0;
+  int i=1;
+  while(i<n & arr[i]<=x){//jab tak value target se chhoti hai tab tak exponential jump karenge jese hi badi ho jaegi wahan ruk jaenge aur hame ek subarray mil gyi hai kyuki last wala index(i/2) target se chhota aur yeh wala index(i) target se bada hai so definitely target lie in this range only
+    i=i*2;
+  }
+  return binarySearch( arr,i/2,min(i,n-1),x);//min function islie lia hai kyuki i out of bound ho sakta hai to agar out of bound hai to n-1 will be considered as end point
+}
+
+int main() { 
+  int arr[]={3,4,5,6,11,13,14,15,16,56,70};
+  int n=sizeof(arr)/sizeof(arr[0]);
+  int x=56;
+  int result = exponentialSearch(arr,n,x);
+  cout<<"Value found at index :"<<result<<endl;
+}
+
+////////////////////////////////////////
+application:
+ 1)Search in an infinite array of unbounded array
+ 2)Better than Binary search when x is near beginning
+ 3)Unbounded Search: Find the element in an infinite sorted array;
