@@ -18,8 +18,8 @@ class Solution {
           
           if(pageSum+arr[i]>sol){//If adding the current book's pages to pageSum exceeds sol, increment the student count c, reset pageSum to the current book's pages.
               c++;
-              pageSum=arr[i];
-              if(c>m) return false;
+              pageSum=arr[i];// Assign the current book to the new student
+              if(c>m) return false;// If students exceed m, return false
           }
           else{
               pageSum+=arr[i];//ssame student ko hi books assign ho rhi hai yahan
@@ -29,9 +29,9 @@ class Solution {
   }
     // Function to find minimum number of pages.
     long long findPages(int n, int arr[], int m) {
-        if(m>n) return -1;
+        if(m>n) return -1;// If there are more students than books, return -1
         int start=0;
-        int end=accumulate(arr,arr+n,0);//start , end and initial sum
+        int end=accumulate(arr,arr+n,0); //start , end and initial sum // The upper bound is the total sum of all pages
         long long  mid=start+(end-start)/2;
         long long  ans=-1;
         while(start<=end){
