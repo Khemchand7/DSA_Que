@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Khemchand7/DSA_Que/tree/master/0287-find-the-duplicate-number) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Khemchand7/DSA_Que/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0643-maximum-average-subarray-i](https://github.com/Khemchand7/DSA_Que/tree/master/0643-maximum-average-subarray-i) |
+| [0658-find-k-closest-elements](https://github.com/Khemchand7/DSA_Que/tree/master/0658-find-k-closest-elements) |
 | [0724-find-pivot-index](https://github.com/Khemchand7/DSA_Que/tree/master/0724-find-pivot-index) |
 | [0926-find-and-replace-pattern](https://github.com/Khemchand7/DSA_Que/tree/master/0926-find-and-replace-pattern) |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/Khemchand7/DSA_Que/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
@@ -31,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Khemchand7/DSA_Que/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Khemchand7/DSA_Que/tree/master/0287-find-the-duplicate-number) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Khemchand7/DSA_Que/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0658-find-k-closest-elements](https://github.com/Khemchand7/DSA_Que/tree/master/0658-find-k-closest-elements) |
 ## Math
 |  |
 | ------- |
@@ -48,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Khemchand7/DSA_Que/tree/master/0287-find-the-duplicate-number) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Khemchand7/DSA_Que/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0647-palindromic-substrings](https://github.com/Khemchand7/DSA_Que/tree/master/0647-palindromic-substrings) |
+| [0658-find-k-closest-elements](https://github.com/Khemchand7/DSA_Que/tree/master/0658-find-k-closest-elements) |
 | [0680-valid-palindrome-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0680-valid-palindrome-ii) |
 ## Bit Manipulation
 |  |
@@ -88,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0268-missing-number](https://github.com/Khemchand7/DSA_Que/tree/master/0268-missing-number) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Khemchand7/DSA_Que/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0658-find-k-closest-elements](https://github.com/Khemchand7/DSA_Que/tree/master/0658-find-k-closest-elements) |
 | [0807-custom-sort-string](https://github.com/Khemchand7/DSA_Que/tree/master/0807-custom-sort-string) |
 ## Simulation
 |  |
@@ -97,4 +101,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/Khemchand7/DSA_Que/tree/master/0643-maximum-average-subarray-i) |
+| [0658-find-k-closest-elements](https://github.com/Khemchand7/DSA_Que/tree/master/0658-find-k-closest-elements) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0658-find-k-closest-elements](https://github.com/Khemchand7/DSA_Que/tree/master/0658-find-k-closest-elements) |
 <!---LeetCode Topics End-->
