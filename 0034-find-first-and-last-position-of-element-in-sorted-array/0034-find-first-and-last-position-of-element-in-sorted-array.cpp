@@ -8,7 +8,7 @@ public:
             int mid = start + (end-start)/2;
             if(nums[mid]==target){
                ans=mid;
-               end=mid-1; 
+               end=mid-1;//minimize karenge solution ko 
             }
             else if(nums[mid]<target){
                 start=mid+1;
