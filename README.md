@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0069-sqrtx](https://github.com/Khemchand7/DSA_Que/tree/master/0069-sqrtx) |
 | [0204-count-primes](https://github.com/Khemchand7/DSA_Que/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/Khemchand7/DSA_Que/tree/master/0268-missing-number) |
+| [2610-closest-prime-numbers-in-range](https://github.com/Khemchand7/DSA_Que/tree/master/2610-closest-prime-numbers-in-range) |
 ## Matrix
 |  |
 | ------- |
@@ -118,4 +119,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Khemchand7/DSA_Que/tree/master/0204-count-primes) |
+| [2610-closest-prime-numbers-in-range](https://github.com/Khemchand7/DSA_Que/tree/master/2610-closest-prime-numbers-in-range) |
 <!---LeetCode Topics End-->
