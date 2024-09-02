@@ -1,0 +1,91 @@
+#include <iostream>
+using namespace std;
+
+void merge(int arr[], int s, int e) {
+    int  mid = s + (e-s)/2;
+
+    int leftLength = mid - s + 1;
+    int rightLength = e - mid;
+
+    int *leftArr = new int[leftLength];
+    int *rightArr = new int[rightLength];
+    
+    // Copy data to temp arrays
+    for(int i = 0 ; i < leftLength ;i++) {
+        leftArr[i] = arr[s + i];
+    }
+
+    for(int i = 0 ; i < rightLength ; i++) {
+        rightArr[i] = arr[mid + 1 + i];
+    }
+
+    // sorting and updation of main array
+    int leftArrIndex = 0;
+    int rightArrIndex = 0;
+    //yahi pr galti hoti hai ---> be careful
+    int mainArrIndex = s;
+    while(leftArrIndex <leftLength && rightArrIndex <rightLength){
+        if(leftArr[leftArrIndex] < rightArr[rightArrIndex]){
+            arr[mainArrIndex] = leftArr[leftArrIndex];
+            leftArrIndex++;
+            mainArrIndex++;
+        }
+        else{
+            arr[mainArrIndex] = rightArr[rightArrIndex];
+            rightArrIndex++;
+            mainArrIndex++;
+        }
+    }
+    // Copy remaining elements of left array if any
+    while(leftArrIndex<leftLength){
+        arr[mainArrIndex] = leftArr[leftArrIndex];
+            leftArrIndex++;
+            mainArrIndex++;
+    }
+    // Copy remaining elements of right array if any
+    while(rightArrIndex<rightLength){
+        arr[mainArrIndex] = rightArr[rightArrIndex];
+            rightArrIndex++;
+            mainArrIndex++;
+    }
+
+    delete [] leftArr;
+    delete [] rightArr;
+    
+}
+
+void mergeSort(int arr[], int s, int e) {
+  int mid = s + (e - s) / 2;
+
+  if (s >= e) {
+    return;
+  }
+  // Recusrsive call for left array
+  mergeSort(arr, s, mid);
+  // Recusrsive call for right array
+  mergeSort(arr, mid + 1, e);
+
+  // merge two sorted arrays
+  merge(arr, s, e);
+}
+
+int main() {
+  //int arr[] = {2, 1, 9, 7, 4, 6};
+    int arr[] = {1,1,1,1,12,1,0};
+  int size = sizeof(arr) / sizeof(arr[0]);
+  int start = 0;
+  int end = size - 1;
+  //arr before merge sort
+  cout << "Array before merge sort: ";
+  for(auto it: arr){
+    cout<<it << " ";
+  }
+  cout<<endl;
+  mergeSort(arr, start, end);
+
+ //arr after merge sort 
+ cout<<"Array after merge sort: ";
+  for(auto it: arr){
+    cout<<it << " ";
+  }
+}
