@@ -1,0 +1,123 @@
+#include <iostream>
+using namespace std;
+#include <vector>
+
+bool isSafe(int maze[4][4], int srcX, int srcY, int row, int col, vector<vector<bool>> &visited)
+{
+    if (((srcX >= 0) && srcY >= 0) &&  // condition for checking out of bound
+        (maze[srcX][srcY] == 1) &&     // condition for checking whether 1 or 0 at that place, 1=> shows movement is allowed, 0=> shows movement is not allowed
+        (visited[srcX][srcY] == false) // condition for checking if already visited or not
+    )
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+
+void printAllPath(int maze[4][4], int row, int col, int srcX, int srcY, string output, vector<vector<bool>> &visited)
+{
+    // Base Case
+    if (srcX == row - 1 && srcY == col - 1)
+    {
+        cout << output << " "<<endl;
+        return;
+    };
+
+    // UP
+    int newSrcX = srcX - 1;
+    int newSrcY = srcY;
+    if (isSafe(maze, newSrcX, newSrcY, row, col, visited))
+    {
+        // mark visited
+        visited[newSrcX][newSrcY] = true; // yahan move kar rhe to mark visite kia
+        // call recursion function
+        output.push_back('U');
+        printAllPath(maze, row, col, newSrcX, newSrcY, output, visited);
+        // Backtracking
+        visited[newSrcX][newSrcY] = false; // yahan se move out kar rhe to mark unvisite kia
+        output.pop_back();                 // yahan se move out kar rhe to remove 'U' from output string
+    }
+
+    // Down
+    newSrcX = srcX + 1;
+    newSrcY = srcY;
+    if (isSafe(maze, newSrcX, newSrcY, row, col, visited))
+    {
+        // mark visited
+        visited[newSrcX][newSrcY] = true; // yahan move kar rhe to mark visite kia
+        // call recursion function
+        output.push_back('D');
+        printAllPath(maze, row, col, newSrcX, newSrcY, output, visited);
+        // Backtracking
+        visited[newSrcX][newSrcY] = false; // yahan se move out kar rhe to mark unvisite kia
+        output.pop_back();                 // yahan se move out kar rhe to remove 'U' from output string
+    }
+    // Right
+    newSrcX = srcX;
+    newSrcY = srcY + 1;
+    if (isSafe(maze, newSrcX, newSrcY, row, col, visited))
+    {
+        // mark visited
+        visited[newSrcX][newSrcY] = true; // yahan move kar rhe to mark visite kia
+        // call recursion function
+        output.push_back('R');
+        printAllPath(maze, row, col, newSrcX, newSrcY, output, visited);
+        // Backtracking
+        visited[newSrcX][newSrcY] = false; // yahan se move out kar rhe to mark unvisite kia
+        output.pop_back();                 // yahan se move out kar rhe to remove 'U' from output string
+    }
+    // Left
+    newSrcX = srcX;
+    newSrcY = srcY - 1;
+    if (isSafe(maze, newSrcX, newSrcY, row, col, visited))
+    {
+        // mark visited
+        visited[newSrcX][newSrcY] = true; // yahan move kar rhe to mark visite kia
+        // call recursion function
+        output.push_back('L');
+        printAllPath(maze, row, col, newSrcX, newSrcY, output, visited);
+        // Backtracking
+        visited[newSrcX][newSrcY] = false; // yahan se move out kar rhe to mark unvisite kia
+        output.pop_back();                 // yahan se move out kar rhe to remove 'U' from output string
+    }
+}
+
+int main()
+{
+    int maze[4][4] = {
+        {1, 0, 0, 0},
+        {1, 1, 0, 0},
+        {1, 1, 1, 0},
+        {1, 1, 1, 1}};
+    int srcX = 0;
+    int srcY = 0;
+    int row = 4;
+    int col = 4;
+    string output = "";
+
+    vector<vector<bool>> visited(row, vector<bool>(col, false));
+
+    if (maze[0][0] == 0)
+    {
+        cout << "NO Path Exists!" << endl;
+    }
+    else
+    {
+        printAllPath(maze, row, col, srcX, srcY, output, visited);
+    }
+
+    return 0;
+}
+*/ 
+All possible ways
+DDDRURDR 
+DDDRRR 
+DDRDRR 
+DDRRDR 
+DRDDRR 
+DRDRDR 
+DRDLDRRR 
+        /*
