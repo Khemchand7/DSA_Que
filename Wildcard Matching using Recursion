@@ -1,0 +1,50 @@
+class Solution {
+public:
+
+    bool isMatchHelper(string& s,int si, string& p, int pi){
+        //base case 1
+        if(si == s.size() && pi == p.size()){
+            //dono string ki length khatam ho gyi matlab match kar gaya 
+            return true;
+        }
+        //base case 2
+        if(si ==s.size() && pi < p.size()){
+            while(pi < p.size()){
+                if(p[pi]!='*'){
+                    return false;
+                }
+                
+                pi++;
+            }
+            return true;
+        }
+        
+        //ek case solve karenge 
+        if(s[si]==p[pi] || p[pi]=='?'){
+            return isMatchHelper(s,si+1,p,pi+1);
+        }
+
+        if(p[pi] == '*'){
+            //'*' ko as a null treat kar rhe hai 
+            bool option1 = isMatchHelper(s,si,p,pi+1);
+
+            //'*' ko ek char consume karaenge
+            bool option2 = isMatchHelper(s, si+1, p, pi);
+
+            return option1 || option2 ;
+        }
+
+        //agar pehla hi match nhi kara 
+        return false;
+
+
+        //recursion
+    }
+
+    bool isMatch(string s, string p) {
+        int si = 0;//pointer for s
+        int pi = 0;//pointer for p
+
+        return isMatchHelper( s, si, p, pi);
+    }
+};
