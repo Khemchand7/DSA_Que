@@ -20,7 +20,7 @@ public:
     } */
 
 /*     //==========SOLUTION 2===========//
-/*     Initialization: maxProfit is initialized to 0 because the minimum possible profit is zero (no transaction or a loss).
+    Initialization: maxProfit is initialized to 0 because the minimum possible profit is zero (no transaction or a loss).
 Conditional checks: The else-if statement ensures that we only calculate the profit when we encounter a price greater than the minimum price. This removes the redundant maxProfit == INT_MIN check and simplifies the code.
     int maxProfit(vector<int>& prices) {
         int minPrice = INT_MAX; // Track the minimum price encountered so far
@@ -36,7 +36,7 @@ Conditional checks: The else-if statement ensures that we only calculate the pro
         return maxProfit;
     } */
 
-/*     //============SOLUTION 3 ==========// most optimized solution
+    //============SOLUTION 3 ==========// most optimized solution
      int maxProfit(vector<int>& prices) {
         int minPrice = prices[0];  // Start with the first element
         int maxProfit = 0;         // Initial max profit is zero
@@ -47,9 +47,9 @@ Conditional checks: The else-if statement ensures that we only calculate the pro
             maxProfit = max(maxProfit, prices[i] - minPrice);
         }
         return maxProfit;
-    } */
+    }
 
-    //============solution 4 ========// using recursion
+/*     //============solution 4 ========// using recursion
     void maxProfitFinder(vector<int>& prices,int currIndex, int& minPrice,int& maxProfit){
         //base cas
         if(currIndex >= prices.size()){
@@ -70,5 +70,5 @@ Conditional checks: The else-if statement ensures that we only calculate the pro
         int currIndex = 0;
         maxProfitFinder(prices,currIndex,minPrice,maxProfit);
         return maxProfit;
-    }
+    } */
 };
