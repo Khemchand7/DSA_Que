@@ -36,7 +36,7 @@ Conditional checks: The else-if statement ensures that we only calculate the pro
         return maxProfit;
     } */
 
-    //============SOLUTION 3 ==========// most optimized solution
+/*     //============SOLUTION 3 ==========// most optimized solution
      int maxProfit(vector<int>& prices) {
         int minPrice = prices[0];  // Start with the first element
         int maxProfit = 0;         // Initial max profit is zero
@@ -46,6 +46,29 @@ Conditional checks: The else-if statement ensures that we only calculate the pro
             minPrice = min(minPrice, prices[i]);
             maxProfit = max(maxProfit, prices[i] - minPrice);
         }
+        return maxProfit;
+    } */
+
+    //============solution 4 ========// using recursion
+    void maxProfitFinder(vector<int>& prices,int currIndex, int& minPrice,int& maxProfit){
+        //base cas
+        if(currIndex >= prices.size()){
+            return;
+        }
+        //ek case solve karna hai 
+        minPrice = min(minPrice,prices[currIndex]);
+        int todaysProfit =  prices[currIndex] - minPrice;
+        maxProfit = max(maxProfit,todaysProfit);
+
+        //baki recursion sambhal lega
+        maxProfitFinder(prices,currIndex+1,minPrice,maxProfit);
+    }
+
+     int maxProfit(vector<int>& prices) {
+        int minPrice = INT_MAX; // Start with the first element
+        int maxProfit = 0;         // Initial max profit is zero
+        int currIndex = 0;
+        maxProfitFinder(prices,currIndex,minPrice,maxProfit);
         return maxProfit;
     }
 };
