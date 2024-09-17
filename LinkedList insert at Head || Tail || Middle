@@ -1,0 +1,153 @@
+#include <iostream>
+using namespace std;
+
+class Node
+{
+public:
+    int data;
+    Node *next;
+
+    Node()
+    {
+        // cout << "default constructor called" << endl;
+        this->data = 0;
+        this->next = NULL;
+    }
+    Node(int data)
+    {
+        // cout << "param constructor called" << endl;
+        this->data = data;
+        this->next = NULL;
+    }
+};
+
+void printLL(Node *&head)
+{
+    Node *temp = head;
+    while (temp != NULL)
+    {
+        cout << temp->data << "->";
+        temp = temp->next;
+    }
+}
+
+int getLength(Node *&head)
+{
+    Node *temp = head;
+    int count = 0;
+    while (temp != NULL)
+    {
+        count++;
+        temp = temp->next;
+    }
+    return count;
+}
+
+void insertAtHead(Node *&head, Node *&tail, int data)
+{
+    if (head == NULL)
+    {
+        Node *newNode = new Node(data);
+        head = newNode;
+        tail = newNode;
+        return;
+    }
+
+    Node *temp = head;
+
+    // create a new node
+    Node *newNode = new Node(data);
+
+    // new node ko attach karna hai head node se
+    newNode->next = temp;
+    // update head
+    head = newNode;
+}
+
+void insertAtTail(Node *&head, Node *&tail, int data)
+{
+
+    if (head == NULL)
+    {
+        Node *newNode = new Node(data);
+        head = newNode;
+        tail = newNode;
+        return;
+    }
+
+    Node *newNode = new Node(data);
+    // attach new node to the tail
+    tail->next = newNode;
+    // update tail
+    tail = newNode;
+}
+
+void insertAtPosition(Node *&head,Node *&tail,int data, int position){
+    if(position == 1){
+        insertAtHead(head, tail, data);
+    }
+    else if(position > getLength(head)){//yahan pr equals to nhi aaega kyuki position == length ka matlab ki wo last wale se pehle aaega 
+        insertAtTail(head, tail, data);
+    }
+    else{
+        Node *newNode = new Node(data);
+        Node *previous = NULL;
+        Node *curr = head;
+        // given position ko reach karenge assume kia hai ki starting position 4 se ki to --karenge aur jab 1 par honge to 4th position hogi
+        while(position != 1){
+            previous = curr;
+            curr = curr->next;
+            position--;
+        }
+        //position jahan pr insert karna hai reached
+        //atttatch karna hai 
+        previous->next = newNode;
+        newNode->next = curr;
+
+    }
+}
+
+
+void insertAtPosition2(Node *&head,Node *&tail,int data, int position){
+    if(position == 1){
+        insertAtHead(head, tail, data);
+    }
+    else if(position > getLength(head)){//yahan pr equals to nhi aaega kyuki position == length ka matlab ki wo last wale se pehle aaega 
+        insertAtTail(head, tail, data);
+    }
+    else{
+        Node *newNode = new Node(data);
+        Node *previous = head;
+        // Node *curr = head;
+        // given position ko reach karenge assume kia hai ki starting position 4 se ki to --karenge aur jab 1 par honge to 4th position hogi
+        int count = 1;
+        while(count < position - 1){//= nhi aaega kyuki wo last wale pr pahuch jaega warna
+            previous = previous->next;
+            count++;
+        }
+        //position jahan pr insert karna hai reached
+        //atttatch karna hai 
+        newNode->next = previous->next;
+        previous->next = newNode;
+
+    }
+}
+
+int main()
+{
+    Node *head = NULL;
+    Node *tail = NULL;
+
+    insertAtHead(head, tail, 10);
+    insertAtTail(head, tail, 20);
+    insertAtTail(head, tail, 30);
+    // insertAtTail(head, tail, 40);
+    // insertAtTail(head, tail, 50);
+    printLL(head);
+    cout<<endl;
+    insertAtPosition1(head, tail, 25,3);
+
+    printLL(head);
+
+    return 0;
+}
