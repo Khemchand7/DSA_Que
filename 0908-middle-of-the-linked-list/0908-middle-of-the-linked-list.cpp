@@ -32,7 +32,7 @@ public:
         //Slow and Fast Pointer Approach or Two Pointer algorithm or Tortoise Algorithm
         ListNode* slow = head;
         ListNode* fast = head;
-
+        // e.g. Linked List 2->4->6->8->10->12  code for 8 as middle
         while(fast!=NULL){
             fast = fast-> next;//ek bar me 2 step islie nhi badae qki possibility hai ki fast NULL pr ho aise me wo null ke next pr chala jaega
             if(fast!=NULL){
@@ -41,6 +41,15 @@ public:
                 slow = slow -> next;
             }
         }
+/*         // e.g. Linked List 2->4->6->8->10->12  code for 6 as middle
+        while(fast->next!=NULL){
+            fast = fast-> next;//ek bar me 2 step islie nhi badae qki possibility hai ki fast NULL pr ho aise me wo null ke next pr chala jaega
+            if(fast->next!=NULL){
+                fast = fast -> next;
+                //yahan pr fast 2 step chal chuka hai to ab hum slow ko ek step bada sakte hai 
+                slow = slow -> next;
+            }
+        } */
         return slow;
     }
 };
