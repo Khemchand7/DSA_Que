@@ -10,10 +10,27 @@
  */
 class Solution {
 public:
+
+    ListNode* reverseListRecursion(ListNode* &prevNode, ListNode* &currNode){
+        ListNode* prev = prevNode;
+        ListNode* curr = currNode;
+
+        //Base Case
+        if(curr == NULL){
+            return prev;//prev jahan pr hai wo ab new head hai
+        }
+        // 1 case solve karenge
+        ListNode* nextNode = curr->next;
+        curr->next = prev;
+        //recursive call
+        return reverseListRecursion(curr,nextNode);
+    }
+
     ListNode* reverseList(ListNode* head) {
         ListNode *prevNode = NULL;
         ListNode *currNode = head;
-
+        
+/*         //Iterative approach
         while(currNode!=NULL){
             ListNode *nextNode = currNode->next;
             currNode->next = prevNode;
@@ -21,6 +38,9 @@ public:
             currNode = nextNode;
         }
         head = prevNode;
-        return head;
+        return head; */
+
+        //Using Recursion
+        return reverseListRecursion(prevNode,currNode);
     }
 };
