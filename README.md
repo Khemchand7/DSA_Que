@@ -128,4 +128,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0204-count-primes](https://github.com/Khemchand7/DSA_Que/tree/master/0204-count-primes) |
 | [2610-closest-prime-numbers-in-range](https://github.com/Khemchand7/DSA_Que/tree/master/2610-closest-prime-numbers-in-range) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/Khemchand7/DSA_Que/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/Khemchand7/DSA_Que/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
