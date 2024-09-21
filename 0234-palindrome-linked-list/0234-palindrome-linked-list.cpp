@@ -10,20 +10,18 @@
  */
 class Solution {
 public:
-    ListNode* reverseLLrec(ListNode* &prev,ListNode* &curr){
-        ListNode* prevNode = prev;
-        ListNode* currNode = curr;
+    ListNode* reverseLLrec(ListNode* prev,ListNode* curr){
         //Base Case
-        if(currNode == NULL){
+        if(curr == NULL){
             return prev;
         }
         //Solve one Case
-        ListNode* nextNode = currNode->next;
-        curr->next = prevNode;
+        ListNode* nextNode = curr->next;
+        curr->next = prev;
         //Call Recursive Function
         return reverseLLrec(curr,nextNode);
     }
-    ListNode* findMid(ListNode* &head){
+    ListNode* findMid(ListNode* head){
         ListNode* slow = head;
         ListNode* fast = head;
 
@@ -36,16 +34,14 @@ public:
         }
         return slow;
     }
-    bool compareList(ListNode* &head1, ListNode* &head2){
-        ListNode* headA = head1;
-        ListNode* headB = head2;
-        while(headB != NULL){//odd wala case handle kia hai odd me last wala jo bachega use compare hi nhi kia // note point is headA is always greater than headB if conditionis headB!=NULL will also give the same result
-            if(headA->val != headB->val){
+    bool compareList(ListNode* head1, ListNode* head2){
+        while(head2 != NULL){//odd wala case handle kia hai odd me last wala jo bachega use compare hi nhi kia // note point is headA is always greater than headB if conditionis headB!=NULL will also give the same result
+            if(head1->val != head2->val){
                 return false;
             }
             else{
-                headA = headA->next;
-                headB = headB->next;
+                head1 = head1->next;
+                head2 = head2->next;
             }
         }
         return true;
