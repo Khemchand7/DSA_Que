@@ -57,7 +57,7 @@ public:
         ListNode* head2 = mid->next;
         
         //break
-        mid->next == NULL;
+        mid->next = NULL;
 
         //reverse
         ListNode* prev = NULL;
