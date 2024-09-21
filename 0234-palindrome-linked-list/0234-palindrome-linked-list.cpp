@@ -39,7 +39,7 @@ public:
     bool compareList(ListNode* &head1, ListNode* &head2){
         ListNode* headA = head1;
         ListNode* headB = head2;
-        while(headA != NULL && headB != NULL){//odd wala case handle kia hai odd me last wala jo bachega use compare hi nhi kia // note point is headA is always greater than headB if conditionis headB!=NULL will also give the same result
+        while(headB != NULL){//odd wala case handle kia hai odd me last wala jo bachega use compare hi nhi kia // note point is headA is always greater than headB if conditionis headB!=NULL will also give the same result
             if(headA->val != headB->val){
                 return false;
             }
