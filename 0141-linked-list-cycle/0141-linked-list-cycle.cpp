@@ -8,7 +8,7 @@
  */
 class Solution {
 public:
-    //using map function
+/*     //using map function
     bool hasCycleUsingMap(ListNode *head) {
         map<ListNode* , bool> table;
         ListNode* temp = head;
@@ -22,9 +22,9 @@ public:
             temp = temp->next;
         }
         return false;
-    }
+    } */
     // slow and fast pointer || tortoise and hare algorithm || two pointer 
-    bool hasCycle(ListNode *head) {
+    bool hasCycle(ListNode *&head) {
         ListNode *slow = head;
         ListNode *fast = head;
 
