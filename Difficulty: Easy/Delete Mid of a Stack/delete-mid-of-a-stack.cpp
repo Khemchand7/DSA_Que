@@ -10,7 +10,9 @@ using namespace std;
 
 class Solution {
   public:
-void deleteMidHelper(stack<int>& s, int pos) {
+    // Function to delete middle element of a stack.
+    
+    void deleteMidHelper(stack<int>& s, int pos) {
     // Base case: If position is 1, we remove the middle element
     if (pos == 1) {
         s.pop();
@@ -29,9 +31,9 @@ void deleteMidHelper(stack<int>& s, int pos) {
 }
 
 // Function to delete the middle element of a stack.
-void deleteMid(stack<int>& s, int sizeOfStack) {
-    int pos = (sizeOfStack / 2) + 1; // Middle element for both even and odd sizes
-    deleteMidHelper(s, pos);
+    void deleteMid(stack<int>& s, int sizeOfStack) {
+        int pos = (sizeOfStack / 2) + 1; // Middle element for both even and odd sizes
+        deleteMidHelper(s, pos);
 }
 };
 
