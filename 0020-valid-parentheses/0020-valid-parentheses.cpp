@@ -51,5 +51,5 @@ public:
             // If stack is not empty, it means there are unmatched opening brackets
             return false;
         }
-    };
+    }
 };
