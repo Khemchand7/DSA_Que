@@ -16,11 +16,8 @@ public:
                 // Closed bracket encountered, now we need to check if it matches the top of the stack
                 
                 // If stack is empty, there's no matching opening bracket for this closing one
-                if (st.empty()) {
-                    // stack empty hai aur usme close brackett ko check karna hai
-                    return false;
-                } else {
-                    // Stack is not empty, so we check if the top matches the current closing bracket
+                if (!st.empty()) {
+                                        // Stack is not empty, so we check if the top matches the current closing bracket
                     
                     // For closing parenthesis ')', top of the stack should be '('
                     if (ch == ')' && st.top() == '(') { 
@@ -40,6 +37,9 @@ public:
                         // st.top() ka element char se match nhi hua
                         return false;
                     }
+                } else {
+                                        // stack empty hai aur usme close brackett ko check karna hai
+                    return false;
                 }
             }
         }
