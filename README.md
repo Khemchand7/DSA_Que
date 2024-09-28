@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Khemchand7/DSA_Que/tree/master/0268-missing-number) |
 | [0415-add-strings](https://github.com/Khemchand7/DSA_Que/tree/master/0415-add-strings) |
 | [2610-closest-prime-numbers-in-range](https://github.com/Khemchand7/DSA_Que/tree/master/2610-closest-prime-numbers-in-range) |
+| [2871-double-a-number-represented-as-a-linked-list](https://github.com/Khemchand7/DSA_Que/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 ## Matrix
 |  |
 | ------- |
@@ -89,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/Khemchand7/DSA_Que/tree/master/0020-valid-parentheses) |
 | [0234-palindrome-linked-list](https://github.com/Khemchand7/DSA_Que/tree/master/0234-palindrome-linked-list) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Khemchand7/DSA_Que/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
+| [2871-double-a-number-represented-as-a-linked-list](https://github.com/Khemchand7/DSA_Que/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 ## Greedy
 |  |
 | ------- |
@@ -148,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/Khemchand7/DSA_Que/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Khemchand7/DSA_Que/tree/master/0234-palindrome-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/Khemchand7/DSA_Que/tree/master/0908-middle-of-the-linked-list) |
+| [2871-double-a-number-represented-as-a-linked-list](https://github.com/Khemchand7/DSA_Que/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 ## Recursion
 |  |
 | ------- |
