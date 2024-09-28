@@ -10,45 +10,44 @@
  */
 class Solution {
 public:
-
-    ListNode* reverseLL(ListNode* prev, ListNode* current) {
-        // Base case: if current node is NULL, return prev (new head of the reversed list)
-        if (current == NULL) {
-            return prev;
+    // Optimized function to reverse the linked list iteratively to avoid recursion overhead
+    ListNode* reverseLL(ListNode* head) {
+        ListNode* prev = NULL;
+        ListNode* curr = head;
+        while (curr != NULL) {
+            ListNode* nextNode = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = nextNode;
         }
-        
-        // Store the next node
-        ListNode* nextNode = current->next;
-        
-        // Reverse the link: current's next now points to the previous node
-        current->next = prev;
-        
-        // Recursively reverse the rest of the list and return the new head
-        return reverseLL(current, nextNode);
+        return prev;
     }
+
+    // Main function to double each node's value and handle carryover
     ListNode* doubleIt(ListNode* head) {
-        ListNode* prevNode = NULL;
-        ListNode* currNode = head;
+        // Step 1: Reverse the linked list to process from least significant digit
+        ListNode* reversedHead = reverseLL(head);
 
-        ListNode* tempHead = reverseLL(prevNode,currNode);
-        ListNode* temp = tempHead;// to store the head of reverse LL
-        ListNode* tempHead2 =NULL;// to track the last node
-
+        // Step 2: Initialize variables to store carry and traverse the list
+        ListNode* temp = reversedHead;
+        ListNode* lastNode = NULL; // To track the last node in case of carry at the end
         int carry = 0;
 
-        while(tempHead!= NULL){
-        tempHead2 = tempHead;
-        int mul = (tempHead->val * 2)+carry;
-        int digit = mul%10;
-        carry = mul/10;
-        tempHead->val = digit;
-        tempHead = tempHead->next;
+        // Step 3: Iterate through the reversed list to double the value of each node
+        while (temp != NULL) {
+            lastNode = temp; // Keep track of the last processed node
+            int mul = (temp->val * 2) + carry;
+            temp->val = mul % 10; // Update the node's value
+            carry = mul / 10;     // Calculate the carry
+            temp = temp->next;
         }
 
-        if(carry !=0){
-        ListNode* newNode = new ListNode(carry);
-        tempHead2->next = newNode;
+        // Step 4: If there's a remaining carry, create a new node at the end and attatch to LL
+        if (carry!=0) {
+            lastNode->next = new ListNode(carry);
         }
-        return reverseLL(prevNode,temp);
+
+        // Step 5: Reverse the list back to its original order
+        return reverseLL(reversedHead);
     }
 };
