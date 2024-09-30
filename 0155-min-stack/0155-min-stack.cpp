@@ -1,5 +1,6 @@
 class MinStack {
 public:
+//Methods pop, top and getMin operations will always be called on non-empty stacks.(IMP CONDITION GIVEN IN QUE) SO NO NEED TO CHECK EMPTY OR UNDERFLOW AND OVERFLOW
     vector<pair<int,int>>st;
     MinStack() {
         
