@@ -2,7 +2,7 @@ class Solution {
 public:
     // This function returns a vector containing the indices of the next smaller elements for each element in the array
     // If no smaller element exists, the value will be -1.
-    vector<int> nextSmallerElement(vector<int> arr, int n) {
+    vector<int> nextSmallerElement(vector<int>&arr, int n) {
         stack<int> st;
         st.push(-1);  // Push -1 as a placeholder for elements that don't have a smaller element on the right
         vector<int> ans(n);  // Resultant vector to store the indices of the next smaller element
@@ -27,7 +27,7 @@ public:
 
     // This function returns a vector containing the indices of the previous smaller elements for each element in the array
     // If no smaller element exists, the value will be -1.
-    vector<int> prevSmallerElement(vector<int> arr, int n) {
+    vector<int> prevSmallerElement(vector<int>&arr, int n) {
         stack<int> st;
         st.push(-1);  // Push -1 as a placeholder for elements that don't have a smaller element on the left
         vector<int> ans(n);  // Resultant vector to store the indices of the previous smaller element
