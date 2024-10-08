@@ -5,7 +5,8 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
 public:
-    string FirstNonRepeating(string A){
+    //using array for freq 
+    string FirstNonRepeating1(string A){
         queue<char> q;  // Queue to store characters that might be non-repeating
         int freq[26] = {0};  // Frequency array to count occurrences of characters, assuming only lowercase letters ('a' to 'z')
         
@@ -38,6 +39,27 @@ public:
         }
         
         return result;  // Return the final result string after processing the entire input
+    }
+    //using map function
+    string FirstNonRepeating(string A){
+        map<char,int>freq;
+        string result = "";
+        queue<char>q;
+        
+        for(int i=0;i<A.size();i++){
+            char ch = A[i];
+            
+            freq[ch]++;
+            
+            q.push(ch);
+            
+            while(!q.empty() && freq[q.front()] > 1){
+                q.pop();
+            }
+            if(q.empty()) result+='#';
+            else result+=q.front();
+        }
+        return result;
     }
 };
 
