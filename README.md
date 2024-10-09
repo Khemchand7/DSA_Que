@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/Khemchand7/DSA_Que/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/Khemchand7/DSA_Que/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Khemchand7/DSA_Que/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0134-gas-station](https://github.com/Khemchand7/DSA_Que/tree/master/0134-gas-station) |
 | [0204-count-primes](https://github.com/Khemchand7/DSA_Que/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/Khemchand7/DSA_Que/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Khemchand7/DSA_Que/tree/master/0287-find-the-duplicate-number) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0134-gas-station](https://github.com/Khemchand7/DSA_Que/tree/master/0134-gas-station) |
 | [0680-valid-palindrome-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0680-valid-palindrome-ii) |
 ## Dynamic Programming
 |  |
