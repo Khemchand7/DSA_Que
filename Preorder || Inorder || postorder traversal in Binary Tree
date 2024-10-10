@@ -1,0 +1,92 @@
+#include<iostream>
+using namespace std;
+
+class binaryTree
+{
+    public:
+    int data;
+    binaryTree* left;
+    binaryTree* right;
+
+    binaryTree(int data)
+    {
+        this->data = data;
+        left = NULL;
+        right = NULL;
+    }
+};
+binaryTree* createTree()
+{
+    cout<<"Enter the data"<<endl;
+    int data;
+    cin>>data;
+    if(data == -1){
+        return NULL;
+    }
+    binaryTree* root = new binaryTree(data);
+    // cout<<"Enter the left child of "<<data<<endl;
+    root->left =createTree();
+    // cout<<"Enter the right child of "<<data<<endl;
+    root->right = createTree();
+    return root;
+}
+void printTree(binaryTree* root){
+    if(root == NULL){
+        cout<<"-1"<<" => ";
+        return;
+    }
+    cout<<root->data<<" => ";
+    printTree(root->left);
+    printTree(root->right);
+}
+
+void preOrderTraversal(binaryTree* root){
+    if(root == NULL){
+        return;
+    }
+    cout<<root->data<<"=>";
+
+    preOrderTraversal(root->left);
+
+    preOrderTraversal(root->right);
+
+}
+
+void inOrderTraversal(binaryTree* root){
+    if(root == NULL) return;
+
+    inOrderTraversal(root->left);
+    cout<<root->data<<"=>";
+    inOrderTraversal(root->right);
+}
+
+void postOrderTraversal(binaryTree* root){
+    if(root == NULL){
+        return;
+    }
+    postOrderTraversal(root->left);
+    postOrderTraversal(root->right);
+    cout<<root->data<<"=>";
+}
+
+
+
+int main()
+{
+    binaryTree* root = createTree();
+
+    cout<<"Printing the tree"<<endl;
+    printTree(root);
+    cout<<endl;
+
+    cout<<"PreOrder Traversal"<<endl;
+    preOrderTraversal(root);
+    cout<<endl;
+    cout<<"InOrder Traversal"<<endl;
+    inOrderTraversal(root);
+    cout<<endl;
+    cout<<"PostOrder Traversal"<<endl;
+    postOrderTraversal(root);
+    cout<<endl;
+
+}
