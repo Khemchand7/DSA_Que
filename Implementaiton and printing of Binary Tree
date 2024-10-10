@@ -1,0 +1,49 @@
+#include<iostream>
+using namespace std;
+
+class binaryTree
+{
+    public:
+    int data;
+    binaryTree* left;
+    binaryTree* right;
+
+    binaryTree(int data)
+    {
+        this->data = data;
+        left = NULL;
+        right = NULL;
+    }
+};
+binaryTree* createTree()
+{
+    cout<<"Enter the data"<<endl;
+    int data;
+    cin>>data;
+    if(data == -1){
+        return NULL;
+    }
+    binaryTree* root = new binaryTree(data);
+    // cout<<"Enter the left child of "<<data<<endl;
+    root->left =createTree();
+    // cout<<"Enter the right child of "<<data<<endl;
+    root->right = createTree();
+    return root;
+}
+void printTree(binaryTree* root){
+    if(root == NULL){
+        cout<<"-1"<<" => ";
+        return;
+    }
+    cout<<root->data<<" => ";
+    printTree(root->left);
+    printTree(root->right);
+}
+int main()
+{
+    binaryTree* root = createTree();
+
+    cout<<"Printing the tree"<<endl;
+    printTree(root);
+
+}
