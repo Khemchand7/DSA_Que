@@ -1,0 +1,47 @@
+/* To push elements into a 2D vector in C++, you need to understand that a 2D vector is essentially a vector of vectors. 
+Here’s how you can push elements into it:
+
+### Steps:
+
+1. **Declare the 2D vector**: You can declare a 2D vector like `vector<vector<int>> matrix;`.
+2. **Push rows (vectors) into the 2D vector**: You can push a row (which is a vector) into the 2D vector.
+3. **Push elements into each row**: First, create a 1D vector (which will act as a row), push elements into it, and then push that row into the 2D vector.
+
+### Example: */
+
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    vector<vector<int>> matrix;
+
+    // Create a row (1D vector)
+    vector<int> row1 = {1, 2, 3};
+    vector<int> row2 = {4, 5, 6};
+
+    // Push rows into the 2D vector
+    matrix.push_back(row1);
+    matrix.push_back(row2);
+
+    // You can also push directly like this
+    matrix.push_back({7, 8, 9});
+
+    // Print the 2D vector
+    for (int i = 0; i < matrix.size(); i++) {
+        for (int j = 0; j < matrix[i].size(); j++) {
+            cout << matrix[i][j] << " ";
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
+
+/* 
+### Explanation:
+1. **matrix.push_back(row1);**: This pushes the first row into the 2D vector.
+2. **matrix.push_back({7, 8, 9});**: This pushes another row directly using an initializer list.
+   
+Each row is a vector of integers, and you're pushing these rows into the 2D vector `matrix`. */
