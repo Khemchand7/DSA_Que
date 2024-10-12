@@ -26,6 +26,7 @@ public:\
         int rightHeight = height(root->right);
         int diff = abs(leftHeight-rightHeight);
         bool currNode = (diff<=1);
+        if(currNode == false) return false;
 
         bool isLeftSubTreeBal = isBalanced(root->left);
         bool isRightSubTreeBal = isBalanced(root->right);
