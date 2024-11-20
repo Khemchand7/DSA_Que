@@ -12,7 +12,7 @@
 class Solution {
 public:
     // Helper function to recursively find all paths
-    void solve(TreeNode* root, int targetSum, vector<vector<int>>& ans, vector<int> temp) {
+    void solve(TreeNode* root, int targetSum, vector<vector<int>>& ans, vector<int>temp) {
         // Base case: If the current node is NULL, simply return
         if (root == NULL) {
             return;
