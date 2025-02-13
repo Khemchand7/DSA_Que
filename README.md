@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0926-find-and-replace-pattern](https://github.com/Khemchand7/DSA_Que/tree/master/0926-find-and-replace-pattern) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Khemchand7/DSA_Que/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/Khemchand7/DSA_Que/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
+| [3373-maximum-prime-difference](https://github.com/Khemchand7/DSA_Que/tree/master/3373-maximum-prime-difference) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0415-add-strings](https://github.com/Khemchand7/DSA_Que/tree/master/0415-add-strings) |
 | [2610-closest-prime-numbers-in-range](https://github.com/Khemchand7/DSA_Que/tree/master/2610-closest-prime-numbers-in-range) |
 | [2871-double-a-number-represented-as-a-linked-list](https://github.com/Khemchand7/DSA_Que/tree/master/2871-double-a-number-represented-as-a-linked-list) |
+| [3373-maximum-prime-difference](https://github.com/Khemchand7/DSA_Que/tree/master/3373-maximum-prime-difference) |
 ## Matrix
 |  |
 | ------- |
@@ -165,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0204-count-primes](https://github.com/Khemchand7/DSA_Que/tree/master/0204-count-primes) |
 | [2610-closest-prime-numbers-in-range](https://github.com/Khemchand7/DSA_Que/tree/master/2610-closest-prime-numbers-in-range) |
+| [3373-maximum-prime-difference](https://github.com/Khemchand7/DSA_Que/tree/master/3373-maximum-prime-difference) |
 ## Linked List
 |  |
 | ------- |
