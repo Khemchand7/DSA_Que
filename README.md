@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0643-maximum-average-subarray-i](https://github.com/Khemchand7/DSA_Que/tree/master/0643-maximum-average-subarray-i) |
 | [0658-find-k-closest-elements](https://github.com/Khemchand7/DSA_Que/tree/master/0658-find-k-closest-elements) |
 | [0724-find-pivot-index](https://github.com/Khemchand7/DSA_Que/tree/master/0724-find-pivot-index) |
+| [0898-transpose-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0898-transpose-matrix) |
 | [0926-find-and-replace-pattern](https://github.com/Khemchand7/DSA_Que/tree/master/0926-find-and-replace-pattern) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Khemchand7/DSA_Que/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/Khemchand7/DSA_Que/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Khemchand7/DSA_Que/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0074-search-a-2d-matrix) |
+| [0898-transpose-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0898-transpose-matrix) |
 ## Two Pointers
 |  |
 | ------- |
@@ -149,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0054-spiral-matrix) |
 | [0415-add-strings](https://github.com/Khemchand7/DSA_Que/tree/master/0415-add-strings) |
+| [0898-transpose-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0898-transpose-matrix) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Khemchand7/DSA_Que/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Sliding Window
 |  |
