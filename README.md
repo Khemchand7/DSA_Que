@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/Khemchand7/DSA_Que/tree/master/0239-sliding-window-maximum) |
 | [0268-missing-number](https://github.com/Khemchand7/DSA_Que/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Khemchand7/DSA_Que/tree/master/0287-find-the-duplicate-number) |
+| [0303-range-sum-query-immutable](https://github.com/Khemchand7/DSA_Que/tree/master/0303-range-sum-query-immutable) |
 | [0485-max-consecutive-ones](https://github.com/Khemchand7/DSA_Que/tree/master/0485-max-consecutive-ones) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Khemchand7/DSA_Que/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0643-maximum-average-subarray-i](https://github.com/Khemchand7/DSA_Que/tree/master/0643-maximum-average-subarray-i) |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0303-range-sum-query-immutable](https://github.com/Khemchand7/DSA_Que/tree/master/0303-range-sum-query-immutable) |
 | [0724-find-pivot-index](https://github.com/Khemchand7/DSA_Que/tree/master/0724-find-pivot-index) |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/Khemchand7/DSA_Que/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
 ## Binary Search
@@ -205,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/Khemchand7/DSA_Que/tree/master/0155-min-stack) |
+| [0303-range-sum-query-immutable](https://github.com/Khemchand7/DSA_Que/tree/master/0303-range-sum-query-immutable) |
 ## Monotonic Stack
 |  |
 | ------- |
