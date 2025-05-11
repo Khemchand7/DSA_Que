@@ -4,36 +4,42 @@ using namespace std;
 
 
 // } Driver Code Ends
+
 class Solution {
   public:
   
-    // Helper function to traverse diagonally from (i, j)
-    void helper(int i, int j, vector<vector<int>> matrix, vector<int>& result) {
-        int n = matrix.size();
-        while (i < n && j >= 0) {
-            result.push_back(matrix[i][j]); // Add element to result
-            i++; 
+    // Helper function to collect one anti-diagonal starting from (row, col)
+    void helper(int row, int col, int N, vector<vector<int>> matrix, vector<int>& ans) {
+        int i = row, j = col;
+        
+        // Traverse the anti-diagonal: move down (i++) and left (j--)
+        while(i < N && j >= 0) {
+            ans.push_back(matrix[i][j]);  // Add current element to result
+            i++;
             j--;
         }
     }
 
+    // Main function to return anti-diagonal traversal
     vector<int> antiDiagonalPattern(vector<vector<int>> matrix) {
-        int n = matrix.size();
-        vector<int> result;
+        int N = matrix.size();  // Matrix is N x N
+        vector<int> ans;
 
-        // Traverse diagonals starting from first row
-        for (int j = 0; j < n; j++) {
-            helper(0, j, matrix, result);
+        // Traverse starting from each element in the first row
+        for(int j = 0; j < N; j++) {
+            helper(0, j, N, matrix, ans);
         }
 
-        // Traverse diagonals starting from last column (excluding first row)
-        for (int i = 1; i < n; i++) {
-            helper(i, n - 1, matrix, result);
+        // Traverse starting from each element in the last column (excluding first row)
+        for(int i = 1; i < N; i++) {
+            helper(i, N - 1, N, matrix, ans);
         }
 
-        return result;
+        return ans;  // Return collected anti-diagonal elements
     }
 };
+
+
 
 //{ Driver Code Starts.
 int main() {
