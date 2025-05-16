@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Khemchand7/DSA_Que/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Khemchand7/DSA_Que/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0054-spiral-matrix) |
+| [0056-merge-intervals](https://github.com/Khemchand7/DSA_Que/tree/master/0056-merge-intervals) |
 | [0074-search-a-2d-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Khemchand7/DSA_Que/tree/master/0075-sort-colors) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Khemchand7/DSA_Que/tree/master/0084-largest-rectangle-in-histogram) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/Khemchand7/DSA_Que/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Khemchand7/DSA_Que/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Khemchand7/DSA_Que/tree/master/0088-merge-sorted-array) |
 | [0268-missing-number](https://github.com/Khemchand7/DSA_Que/tree/master/0268-missing-number) |
