@@ -1,48 +1,49 @@
 class Solution {
 public:
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
-        int row = matrix.size();
-        int col = matrix[0].size();
-
-        int startingRow = 0;
-        int endingCol = col - 1;
-        int endingRow = row - 1;
-        int startingCol = 0;
-        int totalElements = row * col;
-        int count = 0;
+        int n = matrix.size();         // Number of rows in the matrix
+        int m = matrix[0].size();      // Number of columns in the matrix
         vector<int> ans;
 
-        while (count < totalElements) {
-            // printing starting row
-            for (int i = startingCol; i <= endingCol && count < totalElements;
-                 i++) {
-                ans.push_back(matrix[startingRow][i]);
-                count++;
+        // Define the boundaries of the matrix
+        int sRow = 0, sCol = 0;        // Starting row and column
+        int eRow = n - 1, eCol = m - 1; // Ending row and column
+
+        // Loop until the starting boundaries cross the ending boundaries
+        while (sRow <= eRow && sCol <= eCol) {
+            // Traverse the top row from left to right
+            for (int j = sCol; j <= eCol; j++) {
+                ans.push_back(matrix[sRow][j]);
             }
-            startingRow++; // for handing duplicates ab agli bar next col se
-                           // start hoga aur repetition nhi hoga
-            // printing ending col
-            for (int i = startingRow; i <= endingRow && count < totalElements;
-                 i++) {
-                ans.push_back(matrix[i][endingCol]);
-                count++;
+
+            // Traverse the right column from top to bottom
+            for (int i = sRow + 1; i <= eRow; i++) {
+                ans.push_back(matrix[i][eCol]);
             }
-            endingCol--;
-            // printing ending row
-            for (int i = endingCol; i >= startingCol && count < totalElements;
-                 i--) {
-                ans.push_back(matrix[endingRow][i]);
-                count++;
+
+            // Traverse the bottom row from right to left (only if there's more than one row left)
+            for (int j = eCol - 1; j >= sCol; j--) {
+                if (sRow == eRow) {
+                    break;  // Avoid duplicate row
+                }
+                ans.push_back(matrix[eRow][j]);
             }
-            endingRow--;
-            // printing starting col
-            for (int i = endingRow; i >= startingRow && count < totalElements;
-                 i--) {
-                ans.push_back(matrix[i][startingCol]);
-                count++;
+
+            // Traverse the left column from bottom to top (only if there's more than one column left)
+            for (int i = eRow - 1; i >= sRow + 1; i--) {
+                if (sCol == eCol) {
+                    break;  // Avoid duplicate column
+                }
+                ans.push_back(matrix[i][sCol]);
             }
-            startingCol++;
+
+            // Move the boundaries inward
+            sRow++;
+            sCol++;
+            eRow--;
+            eCol--;
         }
+
         return ans;
     }
 };
