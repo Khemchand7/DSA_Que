@@ -107,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Khemchand7/DSA_Que/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/Khemchand7/DSA_Que/tree/master/0005-longest-palindromic-substring) |
 | [0020-valid-parentheses](https://github.com/Khemchand7/DSA_Que/tree/master/0020-valid-parentheses) |
 | [0151-reverse-words-in-a-string](https://github.com/Khemchand7/DSA_Que/tree/master/0151-reverse-words-in-a-string) |
@@ -146,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Khemchand7/DSA_Que/tree/master/0001-two-sum) |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Khemchand7/DSA_Que/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Khemchand7/DSA_Que/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Khemchand7/DSA_Que/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0141-linked-list-cycle](https://github.com/Khemchand7/DSA_Que/tree/master/0141-linked-list-cycle) |
@@ -174,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Khemchand7/DSA_Que/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0239-sliding-window-maximum](https://github.com/Khemchand7/DSA_Que/tree/master/0239-sliding-window-maximum) |
 | [0643-maximum-average-subarray-i](https://github.com/Khemchand7/DSA_Que/tree/master/0643-maximum-average-subarray-i) |
 | [0658-find-k-closest-elements](https://github.com/Khemchand7/DSA_Que/tree/master/0658-find-k-closest-elements) |
