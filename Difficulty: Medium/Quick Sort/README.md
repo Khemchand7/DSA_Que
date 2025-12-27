@@ -1,18 +1,10 @@
-<h2><a href="https://www.geeksforgeeks.org/problems/quick-sort/1">Quick Sort</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Quick Sort is a Divide and Conquer algorithm. It picks an element as a pivot and partitions the given array around the picked pivot.<br>Given an array arr[], its starting position is low (the index of the array)&nbsp;and its ending position is high(the index of the array).</span></p>
-<p><span style="font-size: 18px;"><strong>Note</strong>: The <strong>low</strong> and <strong>high</strong> are inclusive.</span></p>
-<p><span style="font-size: 18px;">Implement the partition() and quickSort() functions to sort the array.</span></p>
-<p><span style="font-size: 18px;"><strong>Example 1:</strong></span></p>
-<pre><span style="font-size: 18px;"><strong>Input: </strong>
-N = 5 
-arr[] = { 4, 1, 3, 9, 7}
-<strong>Output:</strong>
-1 3 4 7 9</span></pre>
-<p><span style="font-size: 18px;"><strong>Example 2:</strong></span></p>
-<pre><span style="font-size: 18px;"><strong>Input: </strong>
-N = 9
-arr[] = { 2, 1, 6, 10, 4, 1, 3, 9, 7}
-<strong>Output:</strong>
-1 1 2 3 4 6 7 9 10</span></pre>
-<p><span style="font-size: 18px;"><strong>Your Task:&nbsp;</strong><br>You don't need to read input or print anything. Your task is to complete the functions <strong>partition()&nbsp; </strong>and <strong>quickSort() </strong>which takes the array arr[], low and high as input parameters and partitions the array. Consider the last element as the pivot such that all the elements less than(or equal to) the pivot lie before it and the elements greater than it lie after the pivot.</span></p>
-<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(N*logN)<br><strong>Expected Auxiliary Space:</strong> O(logN)</span></p>
-<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= N &lt;= 10<sup>3</sup><br>1 &lt;= arr[i] &lt;= 10<sup>4</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>VMWare</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>Samsung</code>&nbsp;<code>Hike</code>&nbsp;<code>Ola Cabs</code>&nbsp;<code>Goldman Sachs</code>&nbsp;<code>Adobe</code>&nbsp;<code>SAP Labs</code>&nbsp;<code>Qualcomm</code>&nbsp;<code>HSBC</code>&nbsp;<code>Grofers</code>&nbsp;<code>Target Corporation</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Divide and Conquer</code>&nbsp;<code>Sorting</code>&nbsp;<code>Algorithms</code>&nbsp;
+<h2><a href="https://www.geeksforgeeks.org/problems/quick-sort/1">Quick Sort</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p data-start="166" data-end="264"><span style="font-size: 14pt;"><strong>Implement Quick Sort</strong>, a Divide and Conquer algorithm, to sort an array, <strong><code data-start="237" data-end="244">arr[]</code></strong> in ascending order.<br></span><span style="font-size: 14pt;">Given an array <strong><code data-start="281" data-end="288">arr[]</code></strong>, with starting index <strong><code data-start="310" data-end="315">low</code> </strong>and ending index <strong><code data-start="333" data-end="339">high</code></strong>, complete the functions <strong><code data-start="364" data-end="377">partition()</code></strong> and <strong><code data-start="382" data-end="395">quickSort()</code></strong>.<br></span><span style="font-size: 14pt;">Use the <strong data-start="406" data-end="435">last element as the pivot</strong>, so that all elements <strong data-start="458" data-end="493">less than or equal </strong>to the pivot come before it, and elements <strong data-start="523" data-end="549">greater than </strong>the pivot follow it.</span></p>
+<p><span style="font-size: 14pt;"><strong data-start="564" data-end="573">Note: <code data-start="574" data-end="579">low</code></strong> and <strong><code data-start="584" data-end="590">high</code> </strong>are inclusive.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [4, 1, 3, 9, 7]
+<strong>Output: </strong>[1, 3, 4, 7, 9]<br><strong>Explanation:</strong> After sorting, all elements are arranged in ascending order.</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [2, 1, 6, 10, 4, 1, 3, 9, 7]
+<strong>Output: [</strong>1, 1, 2, 3, 4, 6, 7, 9, 10]<br><strong>Explanation:</strong> Duplicate elements (1) are retained in sorted order.</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [5, 5, 5, 5]
+<strong>Output: </strong>[5, 5, 5, 5]<br><strong>Explanation:</strong> All elements are identical, so the array remains unchanged.</span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 ≤ arr.size() ≤ 10<sup>5</sup><br>1 ≤ arr[i] ≤ 10<sup>5</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>VMWare</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>Samsung</code>&nbsp;<code>Hike</code>&nbsp;<code>Ola Cabs</code>&nbsp;<code>Goldman Sachs</code>&nbsp;<code>Adobe</code>&nbsp;<code>SAP Labs</code>&nbsp;<code>Qualcomm</code>&nbsp;<code>HSBC</code>&nbsp;<code>Grofers</code>&nbsp;<code>Target Corporation</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Divide and Conquer</code>&nbsp;<code>Sorting</code>&nbsp;<code>Algorithms</code>&nbsp;
