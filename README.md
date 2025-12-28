@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Khemchand7/DSA_Que/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Khemchand7/DSA_Que/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0134-gas-station](https://github.com/Khemchand7/DSA_Que/tree/master/0134-gas-station) |
+| [0162-find-peak-element](https://github.com/Khemchand7/DSA_Que/tree/master/0162-find-peak-element) |
 | [0189-rotate-array](https://github.com/Khemchand7/DSA_Que/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Khemchand7/DSA_Que/tree/master/0204-count-primes) |
 | [0239-sliding-window-maximum](https://github.com/Khemchand7/DSA_Que/tree/master/0239-sliding-window-maximum) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Khemchand7/DSA_Que/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0069-sqrtx](https://github.com/Khemchand7/DSA_Que/tree/master/0069-sqrtx) |
 | [0074-search-a-2d-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0074-search-a-2d-matrix) |
+| [0162-find-peak-element](https://github.com/Khemchand7/DSA_Que/tree/master/0162-find-peak-element) |
 | [0268-missing-number](https://github.com/Khemchand7/DSA_Que/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Khemchand7/DSA_Que/tree/master/0287-find-the-duplicate-number) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Khemchand7/DSA_Que/tree/master/0532-k-diff-pairs-in-an-array) |
