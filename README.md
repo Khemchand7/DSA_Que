@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Khemchand7/DSA_Que/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Khemchand7/DSA_Que/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0134-gas-station](https://github.com/Khemchand7/DSA_Que/tree/master/0134-gas-station) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Khemchand7/DSA_Que/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0162-find-peak-element](https://github.com/Khemchand7/DSA_Que/tree/master/0162-find-peak-element) |
 | [0189-rotate-array](https://github.com/Khemchand7/DSA_Que/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Khemchand7/DSA_Que/tree/master/0204-count-primes) |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0007-reverse-integer](https://github.com/Khemchand7/DSA_Que/tree/master/0007-reverse-integer) |
 | [0048-rotate-image](https://github.com/Khemchand7/DSA_Que/tree/master/0048-rotate-image) |
 | [0069-sqrtx](https://github.com/Khemchand7/DSA_Que/tree/master/0069-sqrtx) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Khemchand7/DSA_Que/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/Khemchand7/DSA_Que/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Khemchand7/DSA_Que/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/Khemchand7/DSA_Que/tree/master/0268-missing-number) |
@@ -133,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/Khemchand7/DSA_Que/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Khemchand7/DSA_Que/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Khemchand7/DSA_Que/tree/master/0084-largest-rectangle-in-histogram) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Khemchand7/DSA_Que/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/Khemchand7/DSA_Que/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/Khemchand7/DSA_Que/tree/master/0234-palindrome-linked-list) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Khemchand7/DSA_Que/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
