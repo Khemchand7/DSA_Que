@@ -219,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/Khemchand7/DSA_Que/tree/master/0002-add-two-numbers) |
 | [0025-reverse-nodes-in-k-group](https://github.com/Khemchand7/DSA_Que/tree/master/0025-reverse-nodes-in-k-group) |
+| [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Khemchand7/DSA_Que/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0141-linked-list-cycle](https://github.com/Khemchand7/DSA_Que/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0142-linked-list-cycle-ii) |
 | [0206-reverse-linked-list](https://github.com/Khemchand7/DSA_Que/tree/master/0206-reverse-linked-list) |
@@ -259,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Khemchand7/DSA_Que/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Khemchand7/DSA_Que/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Khemchand7/DSA_Que/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Khemchand7/DSA_Que/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/Khemchand7/DSA_Que/tree/master/0110-balanced-binary-tree) |
 | [0112-path-sum](https://github.com/Khemchand7/DSA_Que/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0113-path-sum-ii) |
@@ -289,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Khemchand7/DSA_Que/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Khemchand7/DSA_Que/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Khemchand7/DSA_Que/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Khemchand7/DSA_Que/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/Khemchand7/DSA_Que/tree/master/0110-balanced-binary-tree) |
 | [0112-path-sum](https://github.com/Khemchand7/DSA_Que/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0113-path-sum-ii) |
@@ -328,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Khemchand7/DSA_Que/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Khemchand7/DSA_Que/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Khemchand7/DSA_Que/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Khemchand7/DSA_Que/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 ## Counting
 |  |
 | ------- |
@@ -337,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Khemchand7/DSA_Que/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Khemchand7/DSA_Que/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Khemchand7/DSA_Que/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Khemchand7/DSA_Que/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/Khemchand7/DSA_Que/tree/master/0450-delete-node-in-a-bst) |
