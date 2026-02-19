@@ -2,23 +2,22 @@ class Solution {
 public:
     int kthGrammar(int n, int k) {
 
-        // Base case: 1st row contains only one symbol → 0
-        if(n == 1) return 0;
+        // Base case: first position of grammar is always 0
+        if (k == 1) return 0;
 
-        // Mid = size of first half of row n
-        // Total length = 2^(n-1)
-        // Half length  = 2^(n-2)
-        int mid = 1 << (n - 2);
+        // Find value of parent position in previous row
+        // Parent index for 1-indexed k is floor(k/2)
+        int val = kthGrammar(n - 1, (k+1) / 2);
 
-        // If k lies in first half
-        // → value is same as previous row at position k
-        if(k <= mid){
-            return kthGrammar(n - 1, k);
+        // If k is odd → LEFT child → same as parent //flipped because of 1 based indexing 
+        // (positions 1,3,5,... are left children)
+        if (k & 1) {
+            return val;
         }
-
-        // If k lies in second half
-        // → value is inverse of corresponding position in first half
-        // → mapped to (k - mid) in previous row
-        return 1 - kthGrammar(n - 1, k - mid);
+        else {
+            // If k is even → RIGHT child → flipped value
+            // (positions 2,4,6,... are right children)
+            return 1 - val;
+        }
     }
 };
