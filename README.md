@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Khemchand7/DSA_Que/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/Khemchand7/DSA_Que/tree/master/0268-missing-number) |
 | [0415-add-strings](https://github.com/Khemchand7/DSA_Que/tree/master/0415-add-strings) |
+| [0779-k-th-symbol-in-grammar](https://github.com/Khemchand7/DSA_Que/tree/master/0779-k-th-symbol-in-grammar) |
 | [2610-closest-prime-numbers-in-range](https://github.com/Khemchand7/DSA_Que/tree/master/2610-closest-prime-numbers-in-range) |
 | [2871-double-a-number-represented-as-a-linked-list](https://github.com/Khemchand7/DSA_Que/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 | [3373-maximum-prime-difference](https://github.com/Khemchand7/DSA_Que/tree/master/3373-maximum-prime-difference) |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0268-missing-number](https://github.com/Khemchand7/DSA_Que/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Khemchand7/DSA_Que/tree/master/0287-find-the-duplicate-number) |
+| [0779-k-th-symbol-in-grammar](https://github.com/Khemchand7/DSA_Que/tree/master/0779-k-th-symbol-in-grammar) |
 ## String
 |  |
 | ------- |
@@ -237,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0025-reverse-nodes-in-k-group](https://github.com/Khemchand7/DSA_Que/tree/master/0025-reverse-nodes-in-k-group) |
 | [0206-reverse-linked-list](https://github.com/Khemchand7/DSA_Que/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Khemchand7/DSA_Que/tree/master/0234-palindrome-linked-list) |
+| [0779-k-th-symbol-in-grammar](https://github.com/Khemchand7/DSA_Que/tree/master/0779-k-th-symbol-in-grammar) |
 ## Design
 |  |
 | ------- |
