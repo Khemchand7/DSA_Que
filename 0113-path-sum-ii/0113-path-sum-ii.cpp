@@ -11,43 +11,34 @@
  */
 class Solution {
 public:
-    // Helper function to recursively find all paths
-    void solve(TreeNode* root, int targetSum, vector<vector<int>>& ans, vector<int>temp) {
-        // Base case: If the current node is NULL, simply return
-        if (root == NULL) {
-            return;
-        }
+    void helper(TreeNode* root, int targetSum, int sum, 
+                vector<int> &temp, vector<vector<int>> &ans) {
 
-        // Check if the current node is a leaf node
-        if (root->left == NULL && root->right == NULL) {
-            // If the leaf node's value matches the remaining targetSum
-            if (targetSum == root->val) {
-                // Add the current node's value to the temporary path
-                temp.push_back(root->val);
-                // Add the complete path to the result
+        if(root == NULL) return;   // Base case
+
+        sum += root->val;          // Add current node to running sum
+        temp.push_back(root->val); // Add node to current path
+
+        // If leaf node
+        if(root->left == NULL && root->right == NULL){
+            if(targetSum == sum){  // Valid root-to-leaf path
                 ans.push_back(temp);
             }
-            return; // Return since we've processed the leaf node
+        }
+        else{
+            // Explore children
+            helper(root->left, targetSum, sum, temp, ans);
+            helper(root->right, targetSum, sum, temp, ans);
         }
 
-        // Subtract the current node's value from the target sum
-        targetSum -= root->val;
-
-        // Add the current node's value to the temporary path
-        temp.push_back(root->val);
-
-        // Recur for the left subtree
-        solve(root->left, targetSum, ans, temp);
-
-        // Recur for the right subtree
-        solve(root->right, targetSum, ans, temp);
+        temp.pop_back(); // Backtrack: remove current node before returning
     }
 
-    // Main function to return all paths that sum to the targetSum
     vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
-        vector<vector<int>> ans; // To store all valid paths
-        vector<int> temp;        // To store the current path during recursion
-        solve(root, targetSum, ans, temp); // Start the recursive process
-        return ans; // Return all valid paths
+        vector<int> temp; 
+        vector<vector<int>> ans;
+
+        helper(root, targetSum, 0, temp, ans);
+        return ans;
     }
 };
