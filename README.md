@@ -232,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0025-reverse-nodes-in-k-group](https://github.com/Khemchand7/DSA_Que/tree/master/0025-reverse-nodes-in-k-group) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/Khemchand7/DSA_Que/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Khemchand7/DSA_Que/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
+| [0116-populating-next-right-pointers-in-each-node](https://github.com/Khemchand7/DSA_Que/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0141-linked-list-cycle](https://github.com/Khemchand7/DSA_Que/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Khemchand7/DSA_Que/tree/master/0160-intersection-of-two-linked-lists) |
@@ -279,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0110-balanced-binary-tree](https://github.com/Khemchand7/DSA_Que/tree/master/0110-balanced-binary-tree) |
 | [0112-path-sum](https://github.com/Khemchand7/DSA_Que/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0113-path-sum-ii) |
+| [0116-populating-next-right-pointers-in-each-node](https://github.com/Khemchand7/DSA_Que/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/Khemchand7/DSA_Que/tree/master/0199-binary-tree-right-side-view) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Khemchand7/DSA_Que/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Khemchand7/DSA_Que/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -294,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/Khemchand7/DSA_Que/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Khemchand7/DSA_Que/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Khemchand7/DSA_Que/tree/master/0112-path-sum) |
+| [0116-populating-next-right-pointers-in-each-node](https://github.com/Khemchand7/DSA_Que/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/Khemchand7/DSA_Que/tree/master/0199-binary-tree-right-side-view) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Khemchand7/DSA_Que/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Khemchand7/DSA_Que/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
@@ -310,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0110-balanced-binary-tree](https://github.com/Khemchand7/DSA_Que/tree/master/0110-balanced-binary-tree) |
 | [0112-path-sum](https://github.com/Khemchand7/DSA_Que/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0113-path-sum-ii) |
+| [0116-populating-next-right-pointers-in-each-node](https://github.com/Khemchand7/DSA_Que/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/Khemchand7/DSA_Que/tree/master/0199-binary-tree-right-side-view) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Khemchand7/DSA_Que/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Khemchand7/DSA_Que/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -327,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0110-balanced-binary-tree](https://github.com/Khemchand7/DSA_Que/tree/master/0110-balanced-binary-tree) |
 | [0112-path-sum](https://github.com/Khemchand7/DSA_Que/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0113-path-sum-ii) |
+| [0116-populating-next-right-pointers-in-each-node](https://github.com/Khemchand7/DSA_Que/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/Khemchand7/DSA_Que/tree/master/0199-binary-tree-right-side-view) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Khemchand7/DSA_Que/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Khemchand7/DSA_Que/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
