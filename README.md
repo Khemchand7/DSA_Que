@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Khemchand7/DSA_Que/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Khemchand7/DSA_Que/tree/master/0287-find-the-duplicate-number) |
 | [0303-range-sum-query-immutable](https://github.com/Khemchand7/DSA_Que/tree/master/0303-range-sum-query-immutable) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0485-max-consecutive-ones](https://github.com/Khemchand7/DSA_Que/tree/master/0485-max-consecutive-ones) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Khemchand7/DSA_Que/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Khemchand7/DSA_Que/tree/master/0560-subarray-sum-equals-k) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/Khemchand7/DSA_Que/tree/master/0162-find-peak-element) |
 | [0268-missing-number](https://github.com/Khemchand7/DSA_Que/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Khemchand7/DSA_Que/tree/master/0287-find-the-duplicate-number) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Khemchand7/DSA_Que/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0658-find-k-closest-elements](https://github.com/Khemchand7/DSA_Que/tree/master/0658-find-k-closest-elements) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Khemchand7/DSA_Que/tree/master/1011-capacity-to-ship-packages-within-d-days) |
@@ -89,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Khemchand7/DSA_Que/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0074-search-a-2d-matrix) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0898-transpose-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0898-transpose-matrix) |
 ## Two Pointers
 |  |
@@ -191,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/Khemchand7/DSA_Que/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Khemchand7/DSA_Que/tree/master/0088-merge-sorted-array) |
 | [0268-missing-number](https://github.com/Khemchand7/DSA_Que/tree/master/0268-missing-number) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Khemchand7/DSA_Que/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0658-find-k-closest-elements](https://github.com/Khemchand7/DSA_Que/tree/master/0658-find-k-closest-elements) |
 | [0807-custom-sort-string](https://github.com/Khemchand7/DSA_Que/tree/master/0807-custom-sort-string) |
@@ -212,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Khemchand7/DSA_Que/tree/master/0239-sliding-window-maximum) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0658-find-k-closest-elements](https://github.com/Khemchand7/DSA_Que/tree/master/0658-find-k-closest-elements) |
 ## Enumeration
 |  |
