@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Khemchand7/DSA_Que/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Khemchand7/DSA_Que/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/Khemchand7/DSA_Que/tree/master/0268-missing-number) |
+| [0279-perfect-squares](https://github.com/Khemchand7/DSA_Que/tree/master/0279-perfect-squares) |
 | [0415-add-strings](https://github.com/Khemchand7/DSA_Que/tree/master/0415-add-strings) |
 | [0509-fibonacci-number](https://github.com/Khemchand7/DSA_Que/tree/master/0509-fibonacci-number) |
 | [0779-k-th-symbol-in-grammar](https://github.com/Khemchand7/DSA_Que/tree/master/0779-k-th-symbol-in-grammar) |
@@ -169,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Khemchand7/DSA_Que/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Khemchand7/DSA_Que/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/Khemchand7/DSA_Que/tree/master/0198-house-robber) |
+| [0279-perfect-squares](https://github.com/Khemchand7/DSA_Que/tree/master/0279-perfect-squares) |
 | [0509-fibonacci-number](https://github.com/Khemchand7/DSA_Que/tree/master/0509-fibonacci-number) |
 | [0647-palindromic-substrings](https://github.com/Khemchand7/DSA_Que/tree/master/0647-palindromic-substrings) |
 ## Hash Table
@@ -308,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/Khemchand7/DSA_Que/tree/master/0112-path-sum) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Khemchand7/DSA_Que/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/Khemchand7/DSA_Que/tree/master/0199-binary-tree-right-side-view) |
+| [0279-perfect-squares](https://github.com/Khemchand7/DSA_Que/tree/master/0279-perfect-squares) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Khemchand7/DSA_Que/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Khemchand7/DSA_Que/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Binary Tree
