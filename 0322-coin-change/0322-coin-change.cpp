@@ -26,7 +26,7 @@ public:
     }
 
     // Memoization (Top-Down DP)
-    int solveDP(vector<int>& coins, int amount, vector<int> dp) {
+    int solveDP(vector<int>& coins, int amount, vector<int> &dp) {
 
         if (amount == 0) {
             return 0;
@@ -90,8 +90,8 @@ public:
         vector<int> dp(n + 1, -1);
 
         // int ans = solveRec(coins, n);
-        // int ans = solveDP(coins, n, dp);
-        int ans = solveTabulation(coins, n);
+        int ans = solveDP(coins, n, dp);
+        //int ans = solveTabulation(coins, n);
 
         return ans == INT_MAX ? -1 : ans; // if impossible return -1
     }
