@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/Khemchand7/DSA_Que/tree/master/0239-sliding-window-maximum) |
 | [0268-missing-number](https://github.com/Khemchand7/DSA_Que/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Khemchand7/DSA_Que/tree/master/0287-find-the-duplicate-number) |
+| [0300-longest-increasing-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/0300-longest-increasing-subsequence) |
 | [0303-range-sum-query-immutable](https://github.com/Khemchand7/DSA_Que/tree/master/0303-range-sum-query-immutable) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0485-max-consecutive-ones](https://github.com/Khemchand7/DSA_Que/tree/master/0485-max-consecutive-ones) |
@@ -66,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/Khemchand7/DSA_Que/tree/master/0162-find-peak-element) |
 | [0268-missing-number](https://github.com/Khemchand7/DSA_Que/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Khemchand7/DSA_Que/tree/master/0287-find-the-duplicate-number) |
+| [0300-longest-increasing-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/0300-longest-increasing-subsequence) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Khemchand7/DSA_Que/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0658-find-k-closest-elements](https://github.com/Khemchand7/DSA_Que/tree/master/0658-find-k-closest-elements) |
@@ -173,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Khemchand7/DSA_Que/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/Khemchand7/DSA_Que/tree/master/0198-house-robber) |
 | [0279-perfect-squares](https://github.com/Khemchand7/DSA_Que/tree/master/0279-perfect-squares) |
+| [0300-longest-increasing-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/0300-longest-increasing-subsequence) |
 | [0509-fibonacci-number](https://github.com/Khemchand7/DSA_Que/tree/master/0509-fibonacci-number) |
 | [0647-palindromic-substrings](https://github.com/Khemchand7/DSA_Que/tree/master/0647-palindromic-substrings) |
 ## Hash Table
