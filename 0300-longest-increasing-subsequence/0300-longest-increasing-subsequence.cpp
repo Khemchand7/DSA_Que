@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int solveRec(vector<int> &nums, int prev, int curr){
+/*     int solveRec(vector<int> &nums, int prev, int curr){
 
         // Base case: reached end of array
         if(curr >= nums.size()){
@@ -19,7 +19,7 @@ public:
 
         int ans = max(include, exclude);
         return ans;
-    }
+    } */
 
     int solveDP(vector<int> &nums, int prev, int curr, vector<vector<int>> &dp){
 
