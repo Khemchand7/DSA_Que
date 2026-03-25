@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Khemchand7/DSA_Que/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/0300-longest-increasing-subsequence) |
 | [0303-range-sum-query-immutable](https://github.com/Khemchand7/DSA_Que/tree/master/0303-range-sum-query-immutable) |
+| [0322-coin-change](https://github.com/Khemchand7/DSA_Que/tree/master/0322-coin-change) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0485-max-consecutive-ones](https://github.com/Khemchand7/DSA_Que/tree/master/0485-max-consecutive-ones) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Khemchand7/DSA_Que/tree/master/0532-k-diff-pairs-in-an-array) |
@@ -176,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/Khemchand7/DSA_Que/tree/master/0198-house-robber) |
 | [0279-perfect-squares](https://github.com/Khemchand7/DSA_Que/tree/master/0279-perfect-squares) |
 | [0300-longest-increasing-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/0300-longest-increasing-subsequence) |
+| [0322-coin-change](https://github.com/Khemchand7/DSA_Que/tree/master/0322-coin-change) |
 | [0509-fibonacci-number](https://github.com/Khemchand7/DSA_Que/tree/master/0509-fibonacci-number) |
 | [0647-palindromic-substrings](https://github.com/Khemchand7/DSA_Que/tree/master/0647-palindromic-substrings) |
 ## Hash Table
@@ -316,6 +318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Khemchand7/DSA_Que/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/Khemchand7/DSA_Que/tree/master/0199-binary-tree-right-side-view) |
 | [0279-perfect-squares](https://github.com/Khemchand7/DSA_Que/tree/master/0279-perfect-squares) |
+| [0322-coin-change](https://github.com/Khemchand7/DSA_Que/tree/master/0322-coin-change) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Khemchand7/DSA_Que/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Khemchand7/DSA_Que/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Binary Tree
