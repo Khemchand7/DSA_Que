@@ -47,7 +47,7 @@ public:
     int climbStairs(int n) {
         vector<int> dp(n + 1, -1);   // memoization array
 
-         return solveDP(n, dp);    // top-down DP
-        //return solveTabulation(n);   // bottom-up DP
+         //return solveDP(n, dp);    // top-down DP
+        return solveTabulation(n);   // bottom-up DP
     }
 };
