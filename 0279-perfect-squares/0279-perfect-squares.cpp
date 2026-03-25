@@ -60,9 +60,9 @@ public:
     int numSquares(int A) {
          //return solveRec(A);          // Pure recursion (very slow:
 
-        vector<int> dp(A+1, -1);        // DP array for memoization
-        return solveDP(A, dp);          // Top-down DP
+        /* vector<int> dp(A+1, -1);        // DP array for memoization
+        return solveDP(A, dp);          // Top-down DP */
 
-        /* return solveTab(A); */
+        return solveTab(A);
     }
 };
