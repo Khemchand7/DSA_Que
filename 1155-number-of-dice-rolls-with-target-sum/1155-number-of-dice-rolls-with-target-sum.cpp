@@ -92,6 +92,45 @@ public:
         return dp[n][target];
     }
 
+int solveTabulationSO(int n, int k, int target) {
+
+    const int MOD = 1e9 + 7;
+
+    // step1: create 2 arrays (previous row and current row)
+    vector<int> prev(target + 1, 0);
+    vector<int> curr(target + 1, 0);
+
+    // step2: base case
+    prev[0] = 1;   // 0 dice → make sum 0 in exactly 1 way
+
+    for (int dice = 1; dice <= n; dice++) {
+
+        fill(curr.begin(), curr.end(), 0);   // IMPORTANT: reset current row
+
+        for (int tgt = 1; tgt <= target; tgt++) {
+
+            int ans = 0;
+
+            // try all face values
+            for (int i = 1; i <= k; i++) {
+
+                // valid transition only if target doesn't go negative
+                if(tgt - i >= 0) 
+                    ans = (ans + prev[tgt - i]) % MOD;
+            }
+
+            // store result for this dice and target
+            curr[tgt] = ans;
+        }
+
+        // move current row → previous row
+        prev = curr;
+    }
+
+    // final answer after n dice
+    return prev[target];
+}
+
     int numRollsToTarget(int n, int k, int target) {
 
         // recursion
@@ -102,7 +141,8 @@ public:
         int ans = solveMem(n, k, target, dp); */
 
         // tabulation
-        int ans = solveTabulation(n,k, target);
+        //int ans = solveTabulation(n,k, target);
+        int ans = solveTabulationSO(n,k, target);
 
         return ans;
     }
