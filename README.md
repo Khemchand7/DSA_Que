@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Khemchand7/DSA_Que/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/Khemchand7/DSA_Que/tree/master/0268-missing-number) |
 | [0279-perfect-squares](https://github.com/Khemchand7/DSA_Que/tree/master/0279-perfect-squares) |
+| [0375-guess-number-higher-or-lower-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [0415-add-strings](https://github.com/Khemchand7/DSA_Que/tree/master/0415-add-strings) |
 | [0509-fibonacci-number](https://github.com/Khemchand7/DSA_Que/tree/master/0509-fibonacci-number) |
 | [0779-k-th-symbol-in-grammar](https://github.com/Khemchand7/DSA_Que/tree/master/0779-k-th-symbol-in-grammar) |
@@ -179,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0279-perfect-squares](https://github.com/Khemchand7/DSA_Que/tree/master/0279-perfect-squares) |
 | [0300-longest-increasing-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Khemchand7/DSA_Que/tree/master/0322-coin-change) |
+| [0375-guess-number-higher-or-lower-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [0509-fibonacci-number](https://github.com/Khemchand7/DSA_Que/tree/master/0509-fibonacci-number) |
 | [0647-palindromic-substrings](https://github.com/Khemchand7/DSA_Que/tree/master/0647-palindromic-substrings) |
 | [1155-number-of-dice-rolls-with-target-sum](https://github.com/Khemchand7/DSA_Que/tree/master/1155-number-of-dice-rolls-with-target-sum) |
@@ -400,4 +402,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/Khemchand7/DSA_Que/tree/master/0374-guess-number-higher-or-lower) |
+## Game Theory
+|  |
+| ------- |
+| [0375-guess-number-higher-or-lower-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0375-guess-number-higher-or-lower-ii) |
 <!---LeetCode Topics End-->
