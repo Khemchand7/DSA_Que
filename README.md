@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Khemchand7/DSA_Que/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Khemchand7/DSA_Que/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0134-gas-station](https://github.com/Khemchand7/DSA_Que/tree/master/0134-gas-station) |
+| [0135-candy](https://github.com/Khemchand7/DSA_Que/tree/master/0135-candy) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Khemchand7/DSA_Que/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0162-find-peak-element](https://github.com/Khemchand7/DSA_Que/tree/master/0162-find-peak-element) |
 | [0189-rotate-array](https://github.com/Khemchand7/DSA_Que/tree/master/0189-rotate-array) |
@@ -167,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0134-gas-station](https://github.com/Khemchand7/DSA_Que/tree/master/0134-gas-station) |
+| [0135-candy](https://github.com/Khemchand7/DSA_Que/tree/master/0135-candy) |
 | [0680-valid-palindrome-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0680-valid-palindrome-ii) |
 ## Dynamic Programming
 |  |
