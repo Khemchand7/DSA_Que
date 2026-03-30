@@ -143,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/Khemchand7/DSA_Que/tree/master/0151-reverse-words-in-a-string) |
 | [0344-reverse-string](https://github.com/Khemchand7/DSA_Que/tree/master/0344-reverse-string) |
 | [0415-add-strings](https://github.com/Khemchand7/DSA_Que/tree/master/0415-add-strings) |
+| [0516-longest-palindromic-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/0516-longest-palindromic-subsequence) |
 | [0647-palindromic-substrings](https://github.com/Khemchand7/DSA_Que/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0680-valid-palindrome-ii) |
 | [0807-custom-sort-string](https://github.com/Khemchand7/DSA_Que/tree/master/0807-custom-sort-string) |
@@ -185,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/Khemchand7/DSA_Que/tree/master/0322-coin-change) |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [0509-fibonacci-number](https://github.com/Khemchand7/DSA_Que/tree/master/0509-fibonacci-number) |
+| [0516-longest-palindromic-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/0516-longest-palindromic-subsequence) |
 | [0647-palindromic-substrings](https://github.com/Khemchand7/DSA_Que/tree/master/0647-palindromic-substrings) |
 | [1143-longest-common-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/1143-longest-common-subsequence) |
 | [1155-number-of-dice-rolls-with-target-sum](https://github.com/Khemchand7/DSA_Que/tree/master/1155-number-of-dice-rolls-with-target-sum) |
