@@ -92,11 +92,11 @@ public:
 
                 // If characters match → move diagonally
                 if (str1[i] == str2[j])
-                    ans = dp[i+1][j+1];
+                    ans = dp[i + 1][j + 1];
                 else {
-                    int insert = 1 + dp[i][j+1];
-                    int deleted = 1 + dp[i+1][j];
-                    int replace = 1 + dp[i+1][j+1];
+                    int insert = 1 + dp[i][j + 1];
+                    int deleted = 1 + dp[i + 1][j];
+                    int replace = 1 + dp[i + 1][j + 1];
 
                     ans = min(insert, min(deleted, replace));
                 }
@@ -107,6 +107,55 @@ public:
 
         // Final answer: convert entire word1 → word2
         return dp[0][0];
+    }
+
+    int solveTabSO(string& str1, string& str2) {
+        int n = str1.length();
+        int m = str2.length();
+
+        // curr[j]  → represents dp[i][j]
+        // next[j]  → represents dp[i+1][j]
+        vector<int> curr(m + 1, 0);
+        vector<int> next(m + 1, 0);
+
+        // Base case: when i == n (str1 finished)
+        // Need to insert remaining characters of str2
+        for (int j = 0; j <= m; j++) {
+            next[j] = m - j; // equivalent to dp[n][j]
+        }
+
+        // Traverse rows from bottom to top (reverse recursion flow)
+        for (int i = n - 1; i >= 0; i--) {
+
+            // Base case: when j == m (str2 finished)
+            // Need to delete remaining characters of str1
+            curr[m] = n - i; // equivalent to dp[i][m]
+
+            for (int j = m - 1; j >= 0; j--) {
+
+                int ans = 0;
+
+                // If characters match → move diagonally
+                if (str1[i] == str2[j])
+                    ans = next[j + 1]; // dp[i+1][j+1]
+
+                else {
+                    int insert = 1 + curr[j + 1];  // dp[i][j+1]
+                    int deleted = 1 + next[j];     // dp[i+1][j]
+                    int replace = 1 + next[j + 1]; // dp[i+1][j+1]
+
+                    ans = min(insert, min(deleted, replace));
+                }
+
+                curr[j] = ans; // store dp[i][j]
+            }
+
+            // Move current row to next row for the next iteration
+            next = curr;
+        }
+
+        // Final answer corresponds to dp[0][0]
+        return next[0];
     }
 
     int minDistance(string word1, string word2) {
@@ -120,7 +169,8 @@ public:
 
         // int ans = solveRec(word1, word2, i, j);
         // int ans = solveMem(word1, word2, i, j, dp);
-        int ans = solveTab(word1, word2);
+        // int ans = solveTab(word1, word2);
+        int ans = solveTabSO(word1, word2);
 
         return ans;
     }
