@@ -109,8 +109,8 @@ public:
         int j = 0;
 
         //int ans = solveRec(str1, str2, i, j);
-        int ans = solveMem(str1, str2, i, j, dp);
-        //int ans = solveTab(str1, str2);
+        //int ans = solveMem(str1, str2, i, j, dp);
+        int ans = solveTab(str1, str2);
         //int ans = solveTabSO(str1, str2);
 
         return ans;
