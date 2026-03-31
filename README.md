@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/Khemchand7/DSA_Que/tree/master/0303-range-sum-query-immutable) |
 | [0322-coin-change](https://github.com/Khemchand7/DSA_Que/tree/master/0322-coin-change) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0416-partition-equal-subset-sum](https://github.com/Khemchand7/DSA_Que/tree/master/0416-partition-equal-subset-sum) |
 | [0485-max-consecutive-ones](https://github.com/Khemchand7/DSA_Que/tree/master/0485-max-consecutive-ones) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Khemchand7/DSA_Que/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Khemchand7/DSA_Que/tree/master/0560-subarray-sum-equals-k) |
@@ -190,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Khemchand7/DSA_Que/tree/master/0322-coin-change) |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0375-guess-number-higher-or-lower-ii) |
+| [0416-partition-equal-subset-sum](https://github.com/Khemchand7/DSA_Que/tree/master/0416-partition-equal-subset-sum) |
 | [0509-fibonacci-number](https://github.com/Khemchand7/DSA_Que/tree/master/0509-fibonacci-number) |
 | [0516-longest-palindromic-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/0516-longest-palindromic-subsequence) |
 | [0647-palindromic-substrings](https://github.com/Khemchand7/DSA_Que/tree/master/0647-palindromic-substrings) |
