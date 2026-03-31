@@ -119,10 +119,11 @@ public:
         if(totalSum & 1) return false;
 
         int target = totalSum >> 1;
-        vector<vector<int>> dp(n+1, vector<int>(target+1,-1));
+        //vector<vector<int>> dp(n+1, vector<int>(target+1,-1));
 
         //int ans = solveRec(nums, target, index);
-        int ans = solveMem(nums, target, index, dp);
+        //int ans = solveMem(nums, target, index, dp);
+        int ans = solveTab(nums, target);
         return ans;
     }
 };
