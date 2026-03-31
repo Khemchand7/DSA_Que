@@ -111,19 +111,34 @@ public:
     }
 
     bool canPartition(vector<int>& nums) {
-        int n = nums.size();
-        int index = 0;
+        
+    int n = nums.size();
+    int index = 0;
 
-        int totalSum = accumulate(nums.begin(),nums.end(),0);
+    int totalSum = accumulate(nums.begin(), nums.end(), 0);
+    // compute total sum of all elements
 
-        if(totalSum & 1) return false;
+    if(totalSum & 1) return false;
+    // if total sum is odd → cannot divide into two equal subsets
 
-        int target = totalSum >> 1;
-        //vector<vector<int>> dp(n+1, vector<int>(target+1,-1));
+    int target = totalSum >> 1;
+    // each subset must have sum = totalSum / 2
 
-        //int ans = solveRec(nums, target, index);
-        //int ans = solveMem(nums, target, index, dp);
-        int ans = solveTab(nums, target);
-        return ans;
-    }
+    //vector<vector<int>> dp(n+1, vector<int>(target+1,-1));
+    // dp[i][j] → can we make sum j using elements from index i → n-1
+
+    //int ans = solveRec(nums, target, index);
+    // recursion solution
+
+    //int ans = solveMem(nums, target, index, dp);
+    // memoization (top-down DP)
+
+    //int ans = solveTab(nums, target);
+    // tabulation (bottom-up DP)
+
+    int ans = solveTabSO(nums, target);
+    // space optimized DP (O(target) space)
+
+    return ans;
+}
 };
