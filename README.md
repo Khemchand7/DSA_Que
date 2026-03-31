@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0898-transpose-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0898-transpose-matrix) |
 | [0926-find-and-replace-pattern](https://github.com/Khemchand7/DSA_Que/tree/master/0926-find-and-replace-pattern) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Khemchand7/DSA_Que/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [1130-minimum-cost-tree-from-leaf-values](https://github.com/Khemchand7/DSA_Que/tree/master/1130-minimum-cost-tree-from-leaf-values) |
 | [1848-sum-of-unique-elements](https://github.com/Khemchand7/DSA_Que/tree/master/1848-sum-of-unique-elements) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/Khemchand7/DSA_Que/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Khemchand7/DSA_Que/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -166,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Khemchand7/DSA_Que/tree/master/0234-palindrome-linked-list) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Khemchand7/DSA_Que/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Khemchand7/DSA_Que/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
+| [1130-minimum-cost-tree-from-leaf-values](https://github.com/Khemchand7/DSA_Que/tree/master/1130-minimum-cost-tree-from-leaf-values) |
 | [2871-double-a-number-represented-as-a-linked-list](https://github.com/Khemchand7/DSA_Que/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 ## Greedy
 |  |
@@ -173,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/Khemchand7/DSA_Que/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/Khemchand7/DSA_Que/tree/master/0135-candy) |
 | [0680-valid-palindrome-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0680-valid-palindrome-ii) |
+| [1130-minimum-cost-tree-from-leaf-values](https://github.com/Khemchand7/DSA_Que/tree/master/1130-minimum-cost-tree-from-leaf-values) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -190,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0509-fibonacci-number](https://github.com/Khemchand7/DSA_Que/tree/master/0509-fibonacci-number) |
 | [0516-longest-palindromic-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/0516-longest-palindromic-subsequence) |
 | [0647-palindromic-substrings](https://github.com/Khemchand7/DSA_Que/tree/master/0647-palindromic-substrings) |
+| [1130-minimum-cost-tree-from-leaf-values](https://github.com/Khemchand7/DSA_Que/tree/master/1130-minimum-cost-tree-from-leaf-values) |
 | [1143-longest-common-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/1143-longest-common-subsequence) |
 | [1155-number-of-dice-rolls-with-target-sum](https://github.com/Khemchand7/DSA_Que/tree/master/1155-number-of-dice-rolls-with-target-sum) |
 ## Hash Table
@@ -290,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Khemchand7/DSA_Que/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Khemchand7/DSA_Que/tree/master/0084-largest-rectangle-in-histogram) |
+| [1130-minimum-cost-tree-from-leaf-values](https://github.com/Khemchand7/DSA_Que/tree/master/1130-minimum-cost-tree-from-leaf-values) |
 ## Queue
 |  |
 | ------- |
