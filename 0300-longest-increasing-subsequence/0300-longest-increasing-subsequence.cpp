@@ -85,6 +85,44 @@ public:
         return dp[0][-1 + 1];
     }
 
+    int solveTabulationSO(vector<int>& nums) {
+        int n = nums.size();
+
+        // current[prev+1] and next[prev+1] store LIS length for state (prev,
+        // curr)
+        vector<int> current(n + 1, 0);
+        vector<int> next(n + 1, 0);
+
+        // iterate curr from back because recursion goes curr -> curr+1
+        for (int curr = n - 1; curr >= 0; curr--) {
+
+            // prev must always lie before curr
+            for (int prev = curr - 1; prev >= -1; prev--) {
+
+                int include = 0;
+
+                // include nums[curr] if it forms increasing sequence
+                if (prev == -1 || nums[curr] > nums[prev]) {
+                    include =
+                        1 + next[curr + 1]; // move to state (curr, curr+1)
+                }
+
+                int exclude =
+                    next[prev + 1]; // skip curr → state (prev, curr+1)
+
+                int ans = max(include, exclude);
+
+                // prev+1 shift is required because prev can be -1
+                current[prev + 1] = ans;
+            }
+
+            next = current; // move current row to next row for next iteration
+        }
+
+        // start state: prev = -1 , curr = 0
+        return current[0];
+    }
+
     int lengthOfLIS(vector<int>& nums) {
 
         int n = nums.size();
@@ -93,9 +131,10 @@ public:
         int curr = 0;  // start from first element
 
         // dp[prev+1][curr] memoization table
-        //vector<vector<int>> dp(n + 1, vector<int>(n + 1, -1));
+        // vector<vector<int>> dp(n + 1, vector<int>(n + 1, -1));
 
         // return solveDP(nums, prev, curr, dp);
-        return solveTabulation(nums);
+        // return solveTabulation(nums);
+        return solveTabulationSO(nums);
     }
 };
