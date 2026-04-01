@@ -123,6 +123,32 @@ public:
         return current[0];
     }
 
+    int solveUsingBinarySearch(vector<int>& nums) {
+        int n = nums.size();
+
+        vector<int> ans;
+        ans.push_back(
+            nums[0]); // ans[i] = smallest possible tail of LIS
+
+        for (int i = 1; i < n; i++) {
+
+            // if current number is greater than largest element
+            // we can extend the LIS
+            if (nums[i] > ans.back()) {
+                ans.push_back(nums[i]);
+            } else {
+                // find first element >= nums[i]
+                // this keeps ans sorted and ensures smallest tail
+                int idx = lower_bound(ans.begin(), ans.end(), nums[i]) - ans.begin();
+
+                // replace to maintain minimal tail value
+                ans[idx] = nums[i];
+            }
+        }
+
+        return ans.size(); // length of LIS
+    }
+
     int lengthOfLIS(vector<int>& nums) {
 
         int n = nums.size();
@@ -135,6 +161,7 @@ public:
 
         // return solveDP(nums, prev, curr, dp);
         // return solveTabulation(nums);
-        return solveTabulationSO(nums);
+        // return solveTabulationSO(nums);
+        return solveUsingBinarySearch(nums);
     }
 };
