@@ -336,6 +336,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/Khemchand7/DSA_Que/tree/master/0112-path-sum) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Khemchand7/DSA_Que/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/Khemchand7/DSA_Que/tree/master/0199-binary-tree-right-side-view) |
+| [0207-course-schedule](https://github.com/Khemchand7/DSA_Que/tree/master/0207-course-schedule) |
 | [0279-perfect-squares](https://github.com/Khemchand7/DSA_Que/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/Khemchand7/DSA_Que/tree/master/0322-coin-change) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Khemchand7/DSA_Que/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -373,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0113-path-sum-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0113-path-sum-ii) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Khemchand7/DSA_Que/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/Khemchand7/DSA_Que/tree/master/0199-binary-tree-right-side-view) |
+| [0207-course-schedule](https://github.com/Khemchand7/DSA_Que/tree/master/0207-course-schedule) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Khemchand7/DSA_Que/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Khemchand7/DSA_Que/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Khemchand7/DSA_Que/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
@@ -421,4 +423,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0375-guess-number-higher-or-lower-ii) |
+## Graph Theory
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/Khemchand7/DSA_Que/tree/master/0207-course-schedule) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/Khemchand7/DSA_Que/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
