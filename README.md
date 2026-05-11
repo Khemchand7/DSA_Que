@@ -155,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Khemchand7/DSA_Que/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Khemchand7/DSA_Que/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1143-longest-common-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/1143-longest-common-subsequence) |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Khemchand7/DSA_Que/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Khemchand7/DSA_Que/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/Khemchand7/DSA_Que/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
 ## Stack
@@ -200,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/Khemchand7/DSA_Que/tree/master/1130-minimum-cost-tree-from-leaf-values) |
 | [1143-longest-common-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/1143-longest-common-subsequence) |
 | [1155-number-of-dice-rolls-with-target-sum](https://github.com/Khemchand7/DSA_Que/tree/master/1155-number-of-dice-rolls-with-target-sum) |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Khemchand7/DSA_Que/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 ## Hash Table
 |  |
 | ------- |
