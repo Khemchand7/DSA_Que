@@ -153,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0807-custom-sort-string](https://github.com/Khemchand7/DSA_Que/tree/master/0807-custom-sort-string) |
 | [0926-find-and-replace-pattern](https://github.com/Khemchand7/DSA_Que/tree/master/0926-find-and-replace-pattern) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Khemchand7/DSA_Que/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
+| [1092-shortest-common-supersequence](https://github.com/Khemchand7/DSA_Que/tree/master/1092-shortest-common-supersequence) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Khemchand7/DSA_Que/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1143-longest-common-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Khemchand7/DSA_Que/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0509-fibonacci-number](https://github.com/Khemchand7/DSA_Que/tree/master/0509-fibonacci-number) |
 | [0516-longest-palindromic-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/0516-longest-palindromic-subsequence) |
 | [0647-palindromic-substrings](https://github.com/Khemchand7/DSA_Que/tree/master/0647-palindromic-substrings) |
+| [1092-shortest-common-supersequence](https://github.com/Khemchand7/DSA_Que/tree/master/1092-shortest-common-supersequence) |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/Khemchand7/DSA_Que/tree/master/1130-minimum-cost-tree-from-leaf-values) |
 | [1143-longest-common-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/1143-longest-common-subsequence) |
 | [1155-number-of-dice-rolls-with-target-sum](https://github.com/Khemchand7/DSA_Que/tree/master/1155-number-of-dice-rolls-with-target-sum) |
