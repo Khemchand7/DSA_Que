@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Khemchand7/DSA_Que/tree/master/0234-palindrome-linked-list) |
 | [0287-find-the-duplicate-number](https://github.com/Khemchand7/DSA_Que/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/Khemchand7/DSA_Que/tree/master/0344-reverse-string) |
+| [0392-is-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/0392-is-subsequence) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Khemchand7/DSA_Que/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0647-palindromic-substrings](https://github.com/Khemchand7/DSA_Que/tree/master/0647-palindromic-substrings) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Khemchand7/DSA_Que/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -146,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0072-edit-distance](https://github.com/Khemchand7/DSA_Que/tree/master/0072-edit-distance) |
 | [0151-reverse-words-in-a-string](https://github.com/Khemchand7/DSA_Que/tree/master/0151-reverse-words-in-a-string) |
 | [0344-reverse-string](https://github.com/Khemchand7/DSA_Que/tree/master/0344-reverse-string) |
+| [0392-is-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/0392-is-subsequence) |
 | [0415-add-strings](https://github.com/Khemchand7/DSA_Que/tree/master/0415-add-strings) |
 | [0516-longest-palindromic-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/0516-longest-palindromic-subsequence) |
 | [0647-palindromic-substrings](https://github.com/Khemchand7/DSA_Que/tree/master/0647-palindromic-substrings) |
@@ -195,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Khemchand7/DSA_Que/tree/master/0322-coin-change) |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0375-guess-number-higher-or-lower-ii) |
+| [0392-is-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/Khemchand7/DSA_Que/tree/master/0416-partition-equal-subset-sum) |
 | [0509-fibonacci-number](https://github.com/Khemchand7/DSA_Que/tree/master/0509-fibonacci-number) |
 | [0516-longest-palindromic-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/0516-longest-palindromic-subsequence) |
