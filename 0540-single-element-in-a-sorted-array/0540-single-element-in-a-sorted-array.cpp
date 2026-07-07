@@ -1,8 +1,9 @@
 class Solution {
 public:
     // Binary Search:
-    // Before the single element, pairs start at even indices.
-    // After the single element, the pairing pattern shifts, allowing binary search.
+    // Treat each pair as one unit.
+    // If the number of elements up to a complete pair is even,
+    // the single element lies on the right; otherwise, it lies on the left.
     int singleNonDuplicate(vector<int>& nums) {
         int n = nums.size();
 
@@ -11,27 +12,31 @@ public:
         if(nums[0] != nums[1]) return nums[0];
         if(nums[n - 1] != nums[n - 2]) return nums[n - 1];
 
-        int start = 1;
-        int end = n - 2;
+        int start = 2;
+        int end = n - 3;
 
         while(start <= end){
             int mid = start + (end - start) / 2;
 
-            // Found the element whose adjacent elements are different
+            // Found the single element
             if(nums[mid - 1] != nums[mid] && nums[mid] != nums[mid + 1])
                 return nums[mid];
 
-            // Pairing is valid:
-            // - Odd index pairs with previous element.
-            // - Even index pairs with next element.
-            // So, the single element must be on the right.
-            else if(((mid & 1) == 1 && nums[mid - 1] == nums[mid]) ||
-                    ((mid & 1) == 0 && nums[mid] == nums[mid + 1]))
-                start = mid + 1;
+            // Move to the second index of the current pair
+            if(nums[mid] == nums[mid + 1])
+                mid = mid + 1;
 
-            // Pairing pattern is broken, so search on the left.
-            else
+            // Number of elements from start to the current complete pair
+            int len = mid - start + 1;
+
+            // Even length => single element is on the right
+            if((len & 1) == 0){
+                start = mid + 1;
+            }
+            // Odd length => single element is on the left
+            else{
                 end = mid - 1;
+            }
         }
 
         return -1;
