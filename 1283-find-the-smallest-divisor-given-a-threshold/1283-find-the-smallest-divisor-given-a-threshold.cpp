@@ -5,7 +5,8 @@ public:
 
         for(int i = 0; i < n; i++){
             // Add the ceiling value of each division
-            sum += ceil((double)nums[i] / divisor);
+            //sum += ceil((double)nums[i] / divisor);
+            sum += (nums[i] + divisor - 1)/divisor;
         }
 
         return sum;
