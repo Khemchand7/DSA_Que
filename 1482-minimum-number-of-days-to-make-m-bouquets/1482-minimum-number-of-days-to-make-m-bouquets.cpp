@@ -24,6 +24,8 @@ public:
 
     int minDays(vector<int>& bloomDay, int m, int k) {
         int n = bloomDay.size();
+        // edge case : If the total flowers available are fewer than that, the task is impossible.
+        if(n < 1LL * m * k) return -1;
 
         // Search space: minimum bloom day to maximum bloom day
         int start = *min_element(bloomDay.begin(), bloomDay.end());
