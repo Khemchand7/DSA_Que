@@ -44,4 +44,21 @@ Space Complexity
 ----------------
     Heap can contain up to O(n) elements (expired elements stay until they reach the top).
     Overall: O(n)
+
+    arr idx : 0 1 2 3 4 5 6 7
+
+    Condition1:
+    -----------
+    suppose we are at idx = 4 and k = 3 so last first element of window will be i - k + 1;
+    How ? 
+    let's do it assume index of first element of window is x ans last element index is i 
+    and window size is k 
+    so k = i - x + 1  ==> x = i - k + 1;
+    any index with index <= i - k is actually out of current window 
+
+    Condition2:
+    ----------
+    when i = k - 1 first window will be formed so after that we need to add all max
+
+
  */
