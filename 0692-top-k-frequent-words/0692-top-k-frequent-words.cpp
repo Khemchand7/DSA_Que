@@ -1,42 +1,47 @@
 class Solution {
 public:
+
     struct cmp {
 
-        bool operator()(pair<int, string> a, pair<int, string> b) {
+        bool operator()(pair<int,string> a,
+                        pair<int,string> b) {
 
-            // Higher frequency should come first
-            if (a.first != b.first)
-                return a.first < b.first;
+            // Lower frequency should stay on top
+            if(a.first != b.first)
+                return a.first > b.first;
 
-            // If frequency is same, lexicographically smaller word first
-            return a.second > b.second;
+            // If same frequency, lexicographically larger stays on top
+            return a.second < b.second;
         }
     };
 
     vector<string> topKFrequent(vector<string>& words, int k) {
 
-        unordered_map<string, int> freq;
+        unordered_map<string,int> freq;
 
-        // Count frequency of each word
-        for (string &word : words)
+        for(string &word : words)
             freq[word]++;
 
-        // Max Heap
-        priority_queue<pair<int, string>,
-                       vector<pair<int, string>>,
+        priority_queue<pair<int,string>,
+                       vector<pair<int,string>>,
                        cmp> pq;
 
-        // Push all unique words into heap
-        for (auto &it : freq)
+        for(auto &it : freq){
+
             pq.push({it.second, it.first});
+
+            if(pq.size() > k)
+                pq.pop();
+        }
 
         vector<string> ans;
 
-        // Extract top k frequent words
-        while (k--) {
+        while(!pq.empty()){
             ans.push_back(pq.top().second);
             pq.pop();
         }
+
+        reverse(ans.begin(), ans.end());
 
         return ans;
     }
