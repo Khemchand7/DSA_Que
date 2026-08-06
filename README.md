@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/Khemchand7/DSA_Que/tree/master/0692-top-k-frequent-words) |
 | [0704-binary-search](https://github.com/Khemchand7/DSA_Que/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/Khemchand7/DSA_Que/tree/master/0724-find-pivot-index) |
+| [0739-daily-temperatures](https://github.com/Khemchand7/DSA_Que/tree/master/0739-daily-temperatures) |
 | [0875-koko-eating-bananas](https://github.com/Khemchand7/DSA_Que/tree/master/0875-koko-eating-bananas) |
 | [0898-transpose-matrix](https://github.com/Khemchand7/DSA_Que/tree/master/0898-transpose-matrix) |
 | [0926-find-and-replace-pattern](https://github.com/Khemchand7/DSA_Que/tree/master/0926-find-and-replace-pattern) |
@@ -217,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Khemchand7/DSA_Que/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/Khemchand7/DSA_Que/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0503-next-greater-element-ii) |
+| [0739-daily-temperatures](https://github.com/Khemchand7/DSA_Que/tree/master/0739-daily-temperatures) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Khemchand7/DSA_Que/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Khemchand7/DSA_Que/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/Khemchand7/DSA_Que/tree/master/1130-minimum-cost-tree-from-leaf-values) |
@@ -374,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/Khemchand7/DSA_Que/tree/master/0084-largest-rectangle-in-histogram) |
 | [0496-next-greater-element-i](https://github.com/Khemchand7/DSA_Que/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0503-next-greater-element-ii) |
+| [0739-daily-temperatures](https://github.com/Khemchand7/DSA_Que/tree/master/0739-daily-temperatures) |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/Khemchand7/DSA_Que/tree/master/1130-minimum-cost-tree-from-leaf-values) |
 ## Queue
 |  |
