@@ -551,4 +551,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0692-top-k-frequent-words](https://github.com/Khemchand7/DSA_Que/tree/master/0692-top-k-frequent-words) |
+## Range Minimum/Maximum Query
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/Khemchand7/DSA_Que/tree/master/0084-largest-rectangle-in-histogram) |
 <!---LeetCode Topics End-->
