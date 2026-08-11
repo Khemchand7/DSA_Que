@@ -1,29 +1,46 @@
+/* 
+At every index:
+
+Water trapped = min(leftMax, rightMax) - height[i]
+
+Instead of storing left/right max arrays, we use two pointers and maintain lmax and rmax.
+ */
+
 class Solution {
 public:
     int trap(vector<int>& height) {
-        int n = height.size();
-        
-        // Arrays to store max height to the left and right of each bar
-        vector<int> lmax(n, 0);
-        vector<int> rmax(n, 0);
-        
-        int trappedWater = 0;
+        int lmax = 0;         // Maximum height seen from the left
+        int rmax = 0;         // Maximum height seen from the right
+        int trappedWater = 0; // Total water trapped
 
-        // Compute lmax: max height to the left of current bar including itself
-        lmax[0] = height[0];
-        for (int i = 1; i < n; i++) {
-            lmax[i] = max(lmax[i - 1], height[i]);
-        }
+        int l = 0;                 // Left pointer
+        int r = height.size() - 1; // Right pointer
 
-        // Compute rmax: max height to the right of current bar including itself
-        rmax[n - 1] = height[n - 1];
-        for (int i = n - 2; i >= 0; i--) {
-            rmax[i] = max(rmax[i + 1], height[i]);
-        }
+        while (l < r) {
 
-        // Calculate trapped water at each bar
-        for (int i = 0; i < n; i++) {
-            trappedWater += (min(lmax[i], rmax[i]) - height[i]);
+            // Process the side with the smaller height
+            if (height[l] <= height[r]) {
+
+                // If left max is taller, water can be trapped here
+                if (lmax > height[l])
+                    trappedWater += (lmax - height[l]);
+
+                // Current height becomes the new left maximum
+                else
+                    lmax = height[l];
+
+                l++;
+            } else {
+
+                // If right max is taller, water can be trapped here
+                if (rmax > height[r])
+                    trappedWater += (rmax - height[r]);
+                // Current height becomes the new right maximum
+                else
+                    rmax = height[r];
+
+                r--;
+            }
         }
 
         return trappedWater;
