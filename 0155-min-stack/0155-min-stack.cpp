@@ -1,47 +1,47 @@
 class MinStack {
 public:
-//Methods pop, top and getMin operations will always be called on non-empty stacks.(IMP CONDITION GIVEN IN QUE) SO NO NEED TO CHECK EMPTY OR UNDERFLOW AND OVERFLOW
-    vector<pair<int,int>>st;
+    stack<int> st;
+    stack<int> minStack;
+
     MinStack() {
-        
+        // Both stacks start empty, so no initialization is required
     }
-    
-    void push(int val) {
-        //when stack is empty
-        if(st.empty()){
-            pair<int,int>p;
-            p.first = val;
-            p.second = val;//second is for storing min and if stack is empty then first element is min itself
-            st.push_back(p);
+
+    void push(int value) {
+
+        // Store the minimum value at the current stack level
+        if (st.empty()) {
+            minStack.push(value);
         }
-        else{
-            pair<int,int>p;
-            p.first = val;
-            int rightMostElementkaMin = st.back().second;
-            p.second = min(val, rightMostElementkaMin);
-            st.push_back(p);
+        else {
+            minStack.push(min(value, minStack.top()));
         }
-        return;
+
+        // Store the actual value in the normal stack
+        st.push(value);
     }
-    
+
     void pop() {
-        st.pop_back();
-        return;
+
+        // Both stacks represent the same stack levels,
+        // so remove the top from both
+        st.pop();
+        minStack.pop();
     }
-    
+
     int top() {
-       return st.back().first;
+        return st.top();   // Return the actual top value
     }
-    
+
     int getMin() {
-        return st.back().second;
+        return minStack.top();   // Minimum is always at the top of minStack
     }
 };
 
 /**
  * Your MinStack object will be instantiated and called as such:
  * MinStack* obj = new MinStack();
- * obj->push(val);
+ * obj->push(value);
  * obj->pop();
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
