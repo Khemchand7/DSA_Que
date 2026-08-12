@@ -192,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/Khemchand7/DSA_Que/tree/master/0151-reverse-words-in-a-string) |
 | [0344-reverse-string](https://github.com/Khemchand7/DSA_Que/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/0392-is-subsequence) |
+| [0402-remove-k-digits](https://github.com/Khemchand7/DSA_Que/tree/master/0402-remove-k-digits) |
 | [0415-add-strings](https://github.com/Khemchand7/DSA_Que/tree/master/0415-add-strings) |
 | [0451-sort-characters-by-frequency](https://github.com/Khemchand7/DSA_Que/tree/master/0451-sort-characters-by-frequency) |
 | [0516-longest-palindromic-subsequence](https://github.com/Khemchand7/DSA_Que/tree/master/0516-longest-palindromic-subsequence) |
@@ -217,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/Khemchand7/DSA_Que/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/Khemchand7/DSA_Que/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/Khemchand7/DSA_Que/tree/master/0234-palindrome-linked-list) |
+| [0402-remove-k-digits](https://github.com/Khemchand7/DSA_Que/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Khemchand7/DSA_Que/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/Khemchand7/DSA_Que/tree/master/0735-asteroid-collision) |
@@ -231,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0134-gas-station](https://github.com/Khemchand7/DSA_Que/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/Khemchand7/DSA_Que/tree/master/0135-candy) |
+| [0402-remove-k-digits](https://github.com/Khemchand7/DSA_Que/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/Khemchand7/DSA_Que/tree/master/0410-split-array-largest-sum) |
 | [0680-valid-palindrome-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0680-valid-palindrome-ii) |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/Khemchand7/DSA_Que/tree/master/1130-minimum-cost-tree-from-leaf-values) |
@@ -379,6 +382,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Khemchand7/DSA_Que/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Khemchand7/DSA_Que/tree/master/0084-largest-rectangle-in-histogram) |
+| [0402-remove-k-digits](https://github.com/Khemchand7/DSA_Que/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Khemchand7/DSA_Que/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Khemchand7/DSA_Que/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/Khemchand7/DSA_Que/tree/master/0739-daily-temperatures) |
