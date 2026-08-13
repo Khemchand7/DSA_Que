@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1848-sum-of-unique-elements](https://github.com/Khemchand7/DSA_Que/tree/master/1848-sum-of-unique-elements) |
 | [1870-minimum-speed-to-arrive-on-time](https://github.com/Khemchand7/DSA_Que/tree/master/1870-minimum-speed-to-arrive-on-time) |
 | [1901-find-a-peak-element-ii](https://github.com/Khemchand7/DSA_Que/tree/master/1901-find-a-peak-element-ii) |
+| [2104-sum-of-subarray-ranges](https://github.com/Khemchand7/DSA_Que/tree/master/2104-sum-of-subarray-ranges) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/Khemchand7/DSA_Que/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Khemchand7/DSA_Que/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/Khemchand7/DSA_Que/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
@@ -229,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Khemchand7/DSA_Que/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Khemchand7/DSA_Que/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/Khemchand7/DSA_Que/tree/master/1130-minimum-cost-tree-from-leaf-values) |
+| [2104-sum-of-subarray-ranges](https://github.com/Khemchand7/DSA_Que/tree/master/2104-sum-of-subarray-ranges) |
 | [2871-double-a-number-represented-as-a-linked-list](https://github.com/Khemchand7/DSA_Que/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 ## Greedy
 |  |
@@ -392,6 +394,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0901-online-stock-span](https://github.com/Khemchand7/DSA_Que/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/Khemchand7/DSA_Que/tree/master/0907-sum-of-subarray-minimums) |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/Khemchand7/DSA_Que/tree/master/1130-minimum-cost-tree-from-leaf-values) |
+| [2104-sum-of-subarray-ranges](https://github.com/Khemchand7/DSA_Que/tree/master/2104-sum-of-subarray-ranges) |
 ## Queue
 |  |
 | ------- |
