@@ -1,81 +1,103 @@
 class Foo {
 
-    // Represents which method is allowed to execute next.
-    // 1 -> first()
-    // 2 -> second()
-    // 3 -> third()
-    private int state = 1;
+    // Semaphore used to control when second() can execute.
+    //
+    // Initial value = 0
+    // So initially, second() is NOT allowed to proceed.
+    //
+    // first() will call second.release(), which increases
+    // the permit count to 1 and allows second() to continue.
+    private Semaphore second = new Semaphore(0);
+
+    // Semaphore used to control when third() can execute.
+    //
+    // Initial value = 0
+    // So initially, third() is NOT allowed to proceed.
+    //
+    // second() will call third.release(), which allows
+    // third() to continue.
+    private Semaphore third = new Semaphore(0);
+
 
     public Foo() {
 
     }
 
-    // synchronized means only ONE thread can execute this method
-    // at a time on the same Foo object.
-    //
-    // It also allows us to safely use wait() and notifyAll()
-    // because both require the thread to own the object's lock.
-    public synchronized void first(Runnable printFirst) throws InterruptedException {
 
-        // Since state starts at 1, first() is the first method
-        // that is supposed to execute.
+    public void first(Runnable printFirst) throws InterruptedException {
+
+        // first() does not need to wait for anyone.
+        // It is the first method in the required sequence.
         //
         // printFirst.run() outputs "first".
         printFirst.run();
 
-        // first() has completed.
-        // Change state to 2 so that second() can proceed.
-        state = 2;
-
-        // Wake up threads that may be waiting on this Foo object's lock.
-        // In particular, this can wake up the thread executing second().
-        notifyAll();
+        // first() has finished printing "first".
+        //
+        // release() adds ONE permit to the 'second' semaphore.
+        //
+        // This gives permission to second() to continue.
+        second.release();
     }
 
-    public synchronized void second(Runnable printSecond) throws InterruptedException {
 
-        // If first() has not completed yet (state != 2),
-        // second() must wait.
-        //
-        // wait() does TWO important things:
-        // 1. Releases the Foo object's lock.
-        // 2. Puts this thread into the WAITING state.
-        //
-        // This allows first() to acquire the lock and execute.
-        while (state != 2) {
-            wait();
-        }
+    public void second(Runnable printSecond) throws InterruptedException {
 
-        // At this point state == 2, meaning first() has completed.
-        // Now it is safe to print "second".
+        // acquire() tries to take ONE permit from 'second'.
+        //
+        // Initially:
+        // second = 0 permits
+        //
+        // Therefore, if second() runs before first(),
+        // it will BLOCK here.
+        //
+        // After first() calls second.release():
+        // second = 1 permit
+        //
+        // acquire() takes that permit:
+        // second = 0
+        //
+        // Now second() is allowed to continue.
+        second.acquire();
+
+
+        // At this point we know that first() has already completed.
         //
         // printSecond.run() outputs "second".
         printSecond.run();
 
-        // second() has completed.
-        // Change state to 3 so that third() can proceed.
-        state = 3;
 
-        // Wake up any thread waiting for state == 3.
-        notifyAll();
+        // second() has finished printing "second".
+        //
+        // Give ONE permit to the 'third' semaphore.
+        //
+        // This gives permission to third() to continue.
+        third.release();
     }
 
-    public synchronized void third(Runnable printThird) throws InterruptedException {
 
-        // If second() has not completed yet (state != 3),
-        // third() must wait.
+    public void third(Runnable printThird) throws InterruptedException {
+
+        // acquire() tries to take ONE permit from 'third'.
         //
-        // wait() releases the lock, allowing second() to execute.
-        while (state != 3) {
-            wait();
-        }
+        // Initially:
+        // third = 0 permits
+        //
+        // Therefore, third() will BLOCK here.
+        //
+        // Only after second() executes:
+        //
+        //     third.release();
+        //
+        // will this acquire() be able to continue.
+        third.acquire();
 
-        // At this point:
-        // state == 3
+
+        // At this point we know:
         // first() has completed
         // second() has completed
         //
-        // Therefore it is safe to print "third".
+        // So it is safe to print "third".
         //
         // printThird.run() outputs "third".
         printThird.run();
